@@ -23,7 +23,7 @@ clientlist.dropna()
 # In[6]:
 
 
-productlist = pd.read_csv('products.csv' , na_values =naval)
+productlist = pd.read_csv('produc.csv' , na_values =naval)
 
 
 # In[ ]:
