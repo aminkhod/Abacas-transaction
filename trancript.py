@@ -22,10 +22,11 @@ clientlist.dropna()
 
 # In[6]:
 
+import pandas as pd
+productlist = pd.read_csv('product.csv' , na_values =naval)
 
-productlist = pd.read_csv('produc.csv' , na_values =naval)
 
-
+1+1
 # In[ ]:
 
 
