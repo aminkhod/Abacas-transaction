@@ -158,7 +158,7 @@ for number in track['amount']:
         amountToWord.append(say_number(number) + ' Pound sterlings only')
     elif str(track.loc[c,'currency']).lower() == 'cad':
         amountToWord.append(say_number(number) + ' canadian Dollars only')
-    elif str(track.loc[c,'currency']).lower() == 'Dollar':
+    elif str(track.loc[c,'currency']).lower() == 'usd':
         amountToWord.append(say_number(number) + ' U.S.Dollars only')
     c +=1
 
@@ -380,7 +380,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[366]:
+# In[371]:
 
 
 #amount    currency
@@ -422,7 +422,7 @@ for i in range(len(track['date'])):
     qty = []
     total = []
 
-    if str(track.loc[i,'currency']) == 'Dollar':
+    if str(track.loc[i,'currency']).lower() == 'usd':
         amount = float(track.loc[i,'amount'])
     else:
         amount = float(changeCurrency(i,track))
@@ -519,7 +519,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[367]:
+# In[372]:
 
 
 #Origin
