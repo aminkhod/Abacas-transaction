@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[438]:
+# In[472]:
 
 
 import pandas as pd
 import numpy as np
 
 
-# In[439]:
+# In[473]:
 
 
 miss_value = ['']
@@ -17,7 +17,7 @@ clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 # clientlist
 
 
-# In[440]:
+# In[474]:
 
 
 productlist = pd.read_csv('product.csv',na_values =miss_value )
@@ -25,7 +25,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 # productlist
 
 
-# In[441]:
+# In[475]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -33,14 +33,14 @@ Colist = pd.read_excel('List of Companies.xlsx')
 # Colist
 
 
-# In[442]:
+# In[476]:
 
 
 track = pd.read_excel('TRACK.xlsx')
 track
 
 
-# In[443]:
+# In[477]:
 
 
 def getBoldataframe(TradingCode, datalist):
@@ -54,7 +54,7 @@ def getBoldataframe(TradingCode, datalist):
     return datalist[codeVector]
 
 
-# In[444]:
+# In[478]:
 
 
 # Distangolishing rep.Exporter and exporter in tacking sheet.
@@ -81,12 +81,12 @@ for i in range(len(repOrMainCo)):
         exporter.append(str(track.loc[i, 'exporter/repExporter']).upper())
         cityOfExporter.append(str(track.loc[i, 'country']))
     else:
-        exp , cityExp = randomExporter(i,Colist)
+        exp , cityExp = randomExporter(track.loc[i,'TYPE OFProducts'],Colist)
         exporter.append(exp)
         cityOfExporter.append(cityExp)
 
 
-# In[445]:
+# In[479]:
 
 
 ones = {
@@ -144,7 +144,7 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[446]:
+# In[480]:
 
 
 amountToWord = []
@@ -163,7 +163,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[447]:
+# In[481]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -175,7 +175,7 @@ cityOfImporter = track['SourceCo.City']
 cityOfrepImporter = track['CO.City']
 
 
-# In[448]:
+# In[482]:
 
 
 def lcs(X , Y): 
@@ -203,7 +203,7 @@ def lcs(X , Y):
 #end of function lcs 
 
 
-# In[469]:
+# In[483]:
 
 
 def getClientRef(c, clientlist):
@@ -240,7 +240,17 @@ def bestmatch(candid,clientlist):
 bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
-# In[450]:
+# In[484]:
+
+
+for i in range(len(exporter)):
+    if (str(exporter[i]) == '') or (str(exporter[i]) == np.nan):
+        exp , cityExp = randomExporter(track.loc[i,'TYPE OFProducts'],Colist)
+        exporter[i] =  imp
+        cityOfExporter[i] = cityImp
+
+
+# In[485]:
 
 
 numlist = []
@@ -257,7 +267,7 @@ for client in repExporter:
     c += 1 
 
 
-# In[451]:
+# In[486]:
 
 
 def QtyClassification(amount, mean):
@@ -283,7 +293,7 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[452]:
+# In[487]:
 
 
 #Choosing products
@@ -334,14 +344,14 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[453]:
+# In[488]:
 
 
 # print(np.random.randint(0,102,1))
 # getRandomKProduct(3000000,1, productlist)
 
 
-# In[454]:
+# In[489]:
 
 
 def changeCurrency(i , data):
@@ -364,7 +374,7 @@ def changeCurrency(i , data):
         return
 
 
-# In[455]:
+# In[490]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -380,7 +390,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[456]:
+# In[491]:
 
 
 #amount    currency
@@ -519,7 +529,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[457]:
+# In[492]:
 
 
 #Origin
@@ -541,7 +551,7 @@ for word in cityOfExporter:
         origin.append('Origin: ' + word)   
 
 
-# In[458]:
+# In[493]:
 
 
 #Loading
@@ -550,7 +560,7 @@ for city in cityOfExporter:
     load.append('Loading: ' + str(city))
 
 
-# In[459]:
+# In[494]:
 
 
 #dischareg
@@ -559,18 +569,18 @@ for city in cityOfImporter:
     dischareg.append('Discharge: ' + str(city))
 
 
-# In[460]:
+# In[495]:
 
 
 forPO = []
 forPO = pd.DataFrame()
 forPO['REF'] = track['refrence']
 
-forPO['repExporter'], forPO['cityOfRepExporter'] = repExporter, cityOfRepExporter
+forPO['repExporter'], forPO['cityOfRepExporter'] = repExporter, (cityOfRepExporter)
 forPO['exporter'], forPO['cityOfExporter']  = exporter, cityOfExporter
 
 forPO['importer'], forPO['cityOfImporter'] = importer, cityOfImporter
-forPO['repImporter'], forPO['cityOfrepImporter'] = repImporter, cityOfrepImporter
+forPO['repImporter'], forPO['cityOfrepImporter'] = repImporter, list(cityOfrepImporter)
 
 forPO['Origin'], forPO['laoding'], forPO['Discharge'] = origin, load, dischareg
 
