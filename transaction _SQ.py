@@ -214,27 +214,40 @@ def getClientRef(c, clientlist):
     return num
     
 def bestmatch(candid,clientlist):
+    # Remove all bad charachters.
     candid = ''.join(e for e in candid if e.isalnum())
     c = 0
     maxAl = 0
     candidRow = []
     num = ''
+    maxLCStoClient = 0
     for client in clientlist['LIST OF COMPANY']:
     #     print(client)
         candidLcs = lcs(candid.lower(), client.lower())
-    #     print(LsubSF)
-        if candidLcs > maxAl:
-            match = c
-            maxAl = candidLcs
-#             print(len(candid),candidLcs)
-            if candidLcs >= len(candid):
+        LCStoClient = candidLcs / len(client)
+#         print(candidLcs)
+#         print(len(candid),candidLcs)
+#         if candidLcs > maxAl:
+#             match = c
+#             maxAl = candidLcs
+#             maxLCStoClient = LCStoClient
+#         elif (candidLcs == maxAl) and (maxLCStoClient < LCStoClient):
+#             match = c
+#             maxAl = candidLcs
+#             maxLCStoClient = LCStoClient                
+                
+#         print(len(candid),candidLcs)
+        if (candidLcs == len(candid)):
+            if (maxLCStoClient < LCStoClient):
                 candidRow = list(clientlist.iloc[c])
                 num = getClientRef(c, clientlist)
+                maxLCStoClient = LCStoClient
+#                 print(maxLCStoClient)
         c+=1
 
-#     print(num, candidRow)
+
     return num, candidRow
-# bestmatch('STORZ MEDICAL AG',clientlist)
+# bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
 # In[270]:
