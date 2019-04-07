@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[472]:
+# In[43]:
 
 
 import pandas as pd
 import numpy as np
 
 
-# In[473]:
+# In[44]:
 
 
 miss_value = ['']
@@ -17,7 +17,7 @@ clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 # clientlist
 
 
-# In[474]:
+# In[45]:
 
 
 productlist = pd.read_csv('product.csv',na_values =miss_value )
@@ -25,7 +25,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 # productlist
 
 
-# In[475]:
+# In[46]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -33,14 +33,14 @@ Colist = pd.read_excel('List of Companies.xlsx')
 # Colist
 
 
-# In[476]:
+# In[47]:
 
 
 track = pd.read_excel('TRACK.xlsx')
 track
 
 
-# In[477]:
+# In[48]:
 
 
 def getBoldataframe(TradingCode, datalist):
@@ -54,7 +54,7 @@ def getBoldataframe(TradingCode, datalist):
     return datalist[codeVector]
 
 
-# In[478]:
+# In[49]:
 
 
 # Distangolishing rep.Exporter and exporter in tacking sheet.
@@ -86,7 +86,7 @@ for i in range(len(repOrMainCo)):
         cityOfExporter.append(cityExp)
 
 
-# In[479]:
+# In[50]:
 
 
 ones = {
@@ -144,7 +144,7 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[480]:
+# In[51]:
 
 
 amountToWord = []
@@ -163,7 +163,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[481]:
+# In[52]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -175,7 +175,7 @@ cityOfImporter = track['SourceCo.City']
 cityOfrepImporter = track['CO.City']
 
 
-# In[482]:
+# In[53]:
 
 
 def lcs(X , Y): 
@@ -203,7 +203,7 @@ def lcs(X , Y):
 #end of function lcs 
 
 
-# In[483]:
+# In[58]:
 
 
 def getClientRef(c, clientlist):
@@ -216,23 +216,35 @@ def getClientRef(c, clientlist):
     return num
     
 def bestmatch(candid,clientlist):
+    # Remove all bad charachters.
     candid = ''.join(e for e in candid if e.isalnum())
     c = 0
     maxAl = 0
     candidRow = []
     num = ''
+    maxLCStoClient = 0
     for client in clientlist['LIST OF COMPANY']:
     #     print(client)
         candidLcs = lcs(candid.lower(), client.lower())
+        LCStoClient = candidLcs / len(client)
 #         print(candidLcs)
 #         print(len(candid),candidLcs)
-        if candidLcs > maxAl:
-            match = c
-            maxAl = candidLcs
-            print(len(candid),candidLcs)
-            if candidLcs >= len(candid):
+#         if candidLcs > maxAl:
+#             match = c
+#             maxAl = candidLcs
+#             maxLCStoClient = LCStoClient
+#         elif (candidLcs == maxAl) and (maxLCStoClient < LCStoClient):
+#             match = c
+#             maxAl = candidLcs
+#             maxLCStoClient = LCStoClient                
+                
+#         print(len(candid),candidLcs)
+        if (candidLcs == len(candid)):
+            if (maxLCStoClient < LCStoClient):
                 candidRow = list(clientlist.iloc[c])
                 num = getClientRef(c, clientlist)
+                maxLCStoClient = LCStoClient
+                print(maxLCStoClient)
         c+=1
 
 
@@ -240,7 +252,7 @@ def bestmatch(candid,clientlist):
 bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
-# In[484]:
+# In[55]:
 
 
 for i in range(len(exporter)):
@@ -250,7 +262,7 @@ for i in range(len(exporter)):
         cityOfExporter[i] = cityImp
 
 
-# In[485]:
+# In[57]:
 
 
 numlist = []
@@ -262,12 +274,13 @@ for client in repExporter:
     veclist.append(vec)
     if num != '':
         cityOfRepExporter[c] = vec[3].upper()
+#         print(cityOfRepExporter[c])
         exporter[c] = vec[4].upper()
         cityOfExporter[c] = vec[5]
     c += 1 
 
 
-# In[486]:
+# In[ ]:
 
 
 def QtyClassification(amount, mean):
@@ -293,7 +306,7 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[487]:
+# In[ ]:
 
 
 #Choosing products
@@ -344,14 +357,14 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[488]:
+# In[ ]:
 
 
 # print(np.random.randint(0,102,1))
 # getRandomKProduct(3000000,1, productlist)
 
 
-# In[489]:
+# In[ ]:
 
 
 def changeCurrency(i , data):
@@ -374,7 +387,7 @@ def changeCurrency(i , data):
         return
 
 
-# In[490]:
+# In[ ]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -390,7 +403,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[491]:
+# In[38]:
 
 
 #amount    currency
