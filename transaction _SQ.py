@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[5]:
 
 
 import pandas as pd
 import numpy as np
 
 
-# In[2]:
+# In[6]:
 
 
 miss_value = ['']
 clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 
 
-# In[3]:
+# In[7]:
 
 
 productlist = pd.read_csv('product.csv',na_values =miss_value )
@@ -23,7 +23,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 productlist
 
 
-# In[4]:
+# In[8]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -160,7 +160,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[15]:
+# In[14]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -172,7 +172,7 @@ cityOfExporter = track['SourceCo.City']
 cityOfRepExporter = track['CO.City']
 
 
-# In[16]:
+# In[15]:
 
 
 def lcs(X , Y): 
@@ -201,7 +201,7 @@ def lcs(X , Y):
   
 
 
-# In[17]:
+# In[16]:
 
 
 def getClientRef(c, clientlist):
@@ -254,7 +254,7 @@ def bestmatch(candid,clientlist):
 # bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
-# In[18]:
+# In[17]:
 
 
 for i in range(len(importer)):
@@ -264,7 +264,7 @@ for i in range(len(importer)):
         cityOfImporter[i] = cityImp
 
 
-# In[19]:
+# In[18]:
 
 
 numlist = []
@@ -282,7 +282,7 @@ for client in importer:
     c += 1 
 
 
-# In[20]:
+# In[19]:
 
 
 numlist = []
@@ -300,7 +300,7 @@ for client in repImporter:
     c += 1 
 
 
-# In[22]:
+# In[20]:
 
 
 def QtyClassification(amount, mean):
@@ -326,13 +326,13 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[23]:
+# In[21]:
 
 
 int(QtyClassification(400000 , 2991.8068396226417))
 
 
-# In[24]:
+# In[22]:
 
 
 #Choosing products
@@ -385,7 +385,7 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[25]:
+# In[23]:
 
 
 def changeCurrency(i , data):
@@ -400,7 +400,7 @@ def changeCurrency(i , data):
         return float(track.loc[i,'amount'] * 0.75)
 
 
-# In[26]:
+# In[24]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -416,7 +416,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[32]:
+# In[25]:
 
 
 #amount    currency
@@ -566,7 +566,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[33]:
+# In[26]:
 
 
 #Origin
@@ -588,7 +588,7 @@ for word in cityOfExporter:
         origin.append('Origin: ' + word)   
 
 
-# In[34]:
+# In[27]:
 
 
 #Loading
@@ -597,7 +597,7 @@ for city in cityOfExporter:
     load.append('Loading: ' + str(city))
 
 
-# In[35]:
+# In[28]:
 
 
 #dischareg
@@ -606,7 +606,7 @@ for city in cityOfImporter:
     dischareg.append('Discharge: ' + str(city))
 
 
-# In[36]:
+# In[29]:
 
 
 
