@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['transaction _PO.py'],
-             pathex=['E:\\work\\Abacus\\Transaction\\Abacas-transaaction'],
+             pathex=['E:\\Amin\\Abacas-transaaction'],
              binaries=[],
              datas=[],
              hiddenimports=[],
