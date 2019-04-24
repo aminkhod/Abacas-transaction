@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[270]:
+# In[84]:
 
 
 import pandas as pd
 import numpy as np
 
 
-# In[271]:
+# In[85]:
 
 
 miss_value = ['']
@@ -17,7 +17,7 @@ clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 # clientlist
 
 
-# In[272]:
+# In[86]:
 
 
 productlist = pd.read_csv('product.csv',na_values =miss_value )
@@ -26,7 +26,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 productlist
 
 
-# In[273]:
+# In[87]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -34,14 +34,14 @@ Colist = pd.read_excel('List of Companies.xlsx')
 Colist
 
 
-# In[274]:
+# In[88]:
 
 
 track = pd.read_excel('TRACK.xlsx')
 track
 
 
-# In[275]:
+# In[89]:
 
 
 def getBoldataframe(TradingCode, datalist):
@@ -55,7 +55,7 @@ def getBoldataframe(TradingCode, datalist):
     return datalist[codeVector]
 
 
-# In[276]:
+# In[90]:
 
 
 # Distangolishing rep.Exporter and exporter in tacking sheet.
@@ -73,21 +73,21 @@ cityOfExporter = []
 for i in range(len(repOrMainCo)):
     if repOrMainCo[i]:
         repExporter.append(str(track.loc[i, 'exporter/repExporter']).upper())
-        cityOfRepExporter.append(str(track.loc[i, 'country']))
+        cityOfRepExporter.append(str(track.loc[i, 'country']).title())
     else:
         repExporter.append('')
         cityOfRepExporter.append('')
 
     if not (repOrMainCo[i]):
         exporter.append(str(track.loc[i, 'exporter/repExporter']).upper())
-        cityOfExporter.append(str(track.loc[i, 'country']))
+        cityOfExporter.append(str(track.loc[i, 'country']).title())
     else:
         exp , cityExp = randomExporter(track.loc[i,'TYPE OFProducts'],Colist)
         exporter.append(exp)
-        cityOfExporter.append(cityExp)
+        cityOfExporter.append(cityExp.title())
 
 
-# In[277]:
+# In[127]:
 
 
 ones = {
@@ -113,6 +113,7 @@ def say_number(i):
         return _join('Negative', _say_number_pos(-i))
     if i == 0:
         return 'Zero'
+
     return _say_number_pos(i)
 
 
@@ -120,7 +121,7 @@ def _say_number_pos(i):
     if i == 0:
         return ''
     if i < 1:
-        return str(int(i*100)) + '/100'
+        return str(np.round(i*100)) + '/100'
     if i < 20:
         return _join(ones[int(i)],_say_number_pos(i % 1))
     if i < 100:
@@ -145,26 +146,26 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[278]:
+# In[128]:
 
 
 amountToWord = []
 c = 0
 for number in track['amount']:
     if str(track.loc[c,'currency']).lower() == 'euro':
-        amountToWord.append(say_number(number) + ' Euros only')
+        amountToWord.append(say_number(number) + ' Euros Only')
     elif str(track.loc[c,'currency']).lower() == 'aed':
-        amountToWord.append(say_number(number) + ' Dirhams only')
+        amountToWord.append(say_number(number) + ' Dirhams Only')
     elif str(track.loc[c,'currency']).lower() == 'pound':
-        amountToWord.append(say_number(number) + ' Pound sterlings only')
+        amountToWord.append(say_number(number) + ' Pound sterlings Only')
     elif str(track.loc[c,'currency']).lower() == 'cad':
-        amountToWord.append(say_number(number) + ' canadian Dollars only')
+        amountToWord.append(say_number(number) + ' canadian Dollars Only')
     elif str(track.loc[c,'currency']).lower() == 'usd':
-        amountToWord.append(say_number(number) + ' U.S.Dollars only')
+        amountToWord.append(say_number(number) + ' U.S.Dollars Only')
     c +=1
 
 
-# In[279]:
+# In[129]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -176,7 +177,7 @@ cityOfImporter = track['SourceCo.City']
 cityOfrepImporter = track['CO.City']
 
 
-# In[280]:
+# In[130]:
 
 
 def lcs(X , Y): 
@@ -204,7 +205,7 @@ def lcs(X , Y):
 #end of function lcs 
 
 
-# In[281]:
+# In[131]:
 
 
 def getClientRef(c, clientlist):
@@ -241,29 +242,34 @@ def bestmatch(candid,clientlist):
                 
 #         print(len(candid),candidLcs)
         if (candidLcs == len(candid)):
-            if (maxLCStoClient < LCStoClient):
-                candidRow = list(clientlist.iloc[c])
-                num = getClientRef(c, clientlist)
-                maxLCStoClient = LCStoClient
+#             print(len(client.lower()))
+#             print(len(candid),candidLcs)
+            if (candidLcs / len(client.lower()) >= 0.5):
+                if (maxLCStoClient < LCStoClient):
+                    candidRow = list(clientlist.iloc[c])
+                    num = getClientRef(c, clientlist)
+                    maxLCStoClient = LCStoClient
 #                 print(maxLCStoClient)
+#                 print(num, candidRow)
         c+=1
 
 
     return num, candidRow
-bestmatch('ANA GENERAL TRADING LLC',clientlist)
+bestmatch('AL FEEL TRADING LLC',clientlist)
 
 
-# In[282]:
+# In[132]:
 
 
 for i in range(len(exporter)):
-    if (str(exporter[i]) == '') or (str(exporter[i]) == np.nan):
+    if (str(exporter[i]) == '') or (str(exporter[i]) == str(np.nan)) or (str(exporter[i]) == 'NAN'):
         exp , cityExp = randomExporter(track.loc[i,'TYPE OFProducts'],Colist)
-        exporter[i] =  imp
-        cityOfExporter[i] = cityImp
+        exporter[i] =  exp
+        cityOfExporter[i] = cityExp
+#     print(exporter[i],i)
 
 
-# In[283]:
+# In[133]:
 
 
 numlist = []
@@ -274,14 +280,14 @@ for client in repExporter:
     numlist.append(num)
     veclist.append(vec)
     if num != '':
-        cityOfRepExporter[c] = vec[3].upper()
+        cityOfRepExporter[c] = vec[3].title()
 #         print(cityOfRepExporter[c])
         exporter[c] = vec[4].upper()
         cityOfExporter[c] = vec[5]
     c += 1 
 
 
-# In[284]:
+# In[134]:
 
 
 def QtyClassification(amount, mean):
@@ -307,7 +313,7 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[285]:
+# In[135]:
 
 
 #Choosing products
@@ -358,14 +364,14 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[286]:
+# In[136]:
 
 
 # print(np.random.randint(0,102,1))
 getRandomKProduct(139409,26, productlist)
 
 
-# In[287]:
+# In[137]:
 
 
 def changeCurrency(i , data):
@@ -388,7 +394,7 @@ def changeCurrency(i , data):
         return
 
 
-# In[288]:
+# In[138]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -404,7 +410,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[296]:
+# In[139]:
 
 
 #amount    currency
@@ -466,12 +472,12 @@ for i in range(len(track['date'])):
             pname.append(RandomKProduct.loc[j,'p_name'] )
             unit.append(RandomKProduct.loc[j,'unit'])
             unitp.append(returnCurrency(RandomKProduct.loc[j,'dollar'],i ,track))
-            tempqty = np.floor(np.random.randint(1,(bound/3),1)[0])
-            print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
-            while((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']) < 1) and (amount - (unitp[-1] * tempqty)) < 0:
-                tempqty = np.floor(np.random.randint(1,(bound/2),1)[0])
-                print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
-            copyamount = amount - (unitp[-1] * tempqty)
+            tempqty = np.floor(np.random.randint(1,(bound * 0.7),1)[0])
+#             print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
+#             while((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']) < 1) and (amount - (unitp[-1] * tempqty)) < 0:
+#                 tempqty = np.floor(np.random.randint(1,(bound/2),1)[0])
+#                 print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
+            copyamount = copyamount - (unitp[-1] * tempqty)
             qty.append(tempqty)
             total.append((unitp[-1] * qty[-1]))
             tot += (unitp[-1] * qty[-1])
@@ -481,8 +487,8 @@ for i in range(len(track['date'])):
     unitp.append(returnCurrency(RandomKProduct.loc[k,'dollar'],i ,track))
 
     qty.append(int(copyamount / RandomKProduct.loc[k,'dollar']))
-    print(qty, i)
-    print(RandomKProduct)
+#     print(qty, i)
+#     print(RandomKProduct)
 #     print(RandomKProduct['dollar'])
 #     print(unitp[-1])
     if copyamount % RandomKProduct.loc[k,'dollar'] !=0:
@@ -552,7 +558,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[297]:
+# In[140]:
 
 
 #Origin
@@ -574,7 +580,7 @@ for word in cityOfExporter:
         origin.append('Origin: ' + word)   
 
 
-# In[298]:
+# In[141]:
 
 
 #Loading
@@ -583,7 +589,7 @@ for city in cityOfExporter:
     load.append('Loading: ' + str(city))
 
 
-# In[299]:
+# In[142]:
 
 
 #dischareg
@@ -592,7 +598,13 @@ for city in cityOfImporter:
     dischareg.append('Discharge: ' + str(city))
 
 
-# In[301]:
+# In[143]:
+
+
+# exporter
+
+
+# In[144]:
 
 
 forPO = []

@@ -70,13 +70,13 @@ cityOfImporter = []
 for i in range(len(repOrMainCo)):
     if repOrMainCo[i]:
         repImporter.append(str(track.loc[i, 'importer/repImporter']).upper())
-        cityOfRepImporter.append(str(track.loc[i, 'country']))
+        cityOfRepImporter.append(str(track.loc[i, 'country']).title())
     else:
         repImporter.append('')
         cityOfRepImporter.append('')
     if not (repOrMainCo[i]):
         importer.append(str(track.loc[i, 'importer/repImporter']).upper())
-        cityOfImporter.append(str(track.loc[i, 'country']))
+        cityOfImporter.append(str(track.loc[i, 'country']).title())
     else:
         imp , cityImp = randomImporter(track.loc[i,'TYPE OFProducts'],Colist)
         importer.append(imp)
@@ -116,7 +116,7 @@ def _say_number_pos(i):
     if i == 0:
         return ''
     if i < 1:
-        return str(int(i*100)) + '/100'
+        return str(np.round(i*100)) + '/100'
     if i < 20:
         return _join(ones[int(i)],_say_number_pos(i % 1))
     if i < 100:
@@ -148,15 +148,15 @@ amountToWord = []
 c = 0
 for number in track['amount']:
     if str(track.loc[c,'currency']).lower() == 'euro':
-        amountToWord.append(say_number(number) + ' Euros only')
+        amountToWord.append(say_number(number) + ' Euros Only')
     elif str(track.loc[c,'currency']).lower() == 'aed':
-        amountToWord.append(say_number(number) + ' Dirhams only')
+        amountToWord.append(say_number(number) + ' Dirhams Only')
     elif str(track.loc[c,'currency']).lower() == 'pound':
-        amountToWord.append(say_number(number) + ' Pound sterlings only')
+        amountToWord.append(say_number(number) + ' Pound sterlings Only')
     elif str(track.loc[c,'currency']).lower() == 'cad':
-        amountToWord.append(say_number(number) + ' canadian Dollars only')
+        amountToWord.append(say_number(number) + ' canadian Dollars Only')
     elif str(track.loc[c,'currency']).lower() == 'usd':
-        amountToWord.append(say_number(number) + ' U.S.Dollars only')
+        amountToWord.append(say_number(number) + ' U.S.Dollars Only')
     c +=1
 
 
@@ -238,11 +238,15 @@ def bestmatch(candid,clientlist):
                 
 #         print(len(candid),candidLcs)
         if (candidLcs == len(candid)):
-            if (maxLCStoClient < LCStoClient):
-                candidRow = list(clientlist.iloc[c])
-                num = getClientRef(c, clientlist)
-                maxLCStoClient = LCStoClient
+#             print(len(client.lower()))
+#             print(len(candid),candidLcs)
+            if (candidLcs / len(client.lower()) >= 0.5):
+                if (maxLCStoClient < LCStoClient):
+                    candidRow = list(clientlist.iloc[c])
+                    num = getClientRef(c, clientlist)
+                    maxLCStoClient = LCStoClient
 #                 print(maxLCStoClient)
+#                 print(num, candidRow)
         c+=1
 
 
@@ -254,7 +258,7 @@ def bestmatch(candid,clientlist):
 
 
 for i in range(len(importer)):
-    if (str(importer[i]) == '') or (str(importer[i]) == np.nan):
+    if (str(importer[i]) == '') or (str(exporter[i]) == str(np.nan)) or (str(exporter[i]) == 'NAN'):
         imp , cityImp = randomImporter(track.loc[i,'TYPE OFProducts'],Colist)
         importer[i] =  imp
         cityOfImporter[i] = cityImp
@@ -475,25 +479,29 @@ for i in range(len(track['date'])):
             pname.append(RandomKProduct.loc[j,'p_name'] )
             unit.append(RandomKProduct.loc[j,'unit'])
             unitp.append(returnCurrency(RandomKProduct.loc[j,'dollar'],i ,track))
-            tempqty = np.floor(np.random.randint(1,(bound/3),1)[0])
-            print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
-            while((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']) < 1) and (amount - (unitp[-1] * tempqty)) < 0:
-                tempqty = np.floor(np.random.randint(1,(bound/2),1)[0])
-                print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
-            copyamount = amount - (unitp[-1] * tempqty)
+            tempqty = np.floor(np.random.randint(1,(bound * 0.7),1)[0])
+#             print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
+#             while((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']) < 1) and (amount - (unitp[-1] * tempqty)) < 0:
+#                 tempqty = np.floor(np.random.randint(1,(bound/2),1)[0])
+#                 print((amount - (unitp[-1] * tempqty))/float(RandomKProduct.loc[j + 1,'dollar']))
+            copyamount = copyamount - (unitp[-1] * tempqty)
             qty.append(tempqty)
             total.append((unitp[-1] * qty[-1]))
             tot += (unitp[-1] * qty[-1])
-    j = len(RandomKProduct['p_name']) - 1
-    pname.append(RandomKProduct.loc[j,'p_name'] )
-    unit.append(RandomKProduct.loc[j,'unit'])
-    unitp.append(returnCurrency(RandomKProduct.loc[j,'dollar'],i ,track))
+    k = len(RandomKProduct['p_name']) - 1
+    pname.append(RandomKProduct.loc[k,'p_name'] )
+    unit.append(RandomKProduct.loc[k,'unit'])
+    unitp.append(returnCurrency(RandomKProduct.loc[k,'dollar'],i ,track))
+
+    qty.append(int(copyamount / RandomKProduct.loc[k,'dollar']))
+#     print(qty, i)
+#     print(RandomKProduct)
+#     print(RandomKProduct['dollar'])
 #     print(unitp[-1])
-    qty.append(int(copyamount / RandomKProduct.loc[j,'dollar']))
-    
-    if copyamount % RandomKProduct.loc[j,'dollar'] !=0:
+    if copyamount % RandomKProduct.loc[k,'dollar'] !=0:
         unitp[-1] = float(copyamount / qty[-1])
     total.append(amount - tot)
+#     print(unitp[-1])
 #     print(amount)
     
 #     print(unit,unitp,qty,total)
