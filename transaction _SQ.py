@@ -1,21 +1,21 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
+# In[1]:
 
 
 import pandas as pd
 import numpy as np
 
 
-# In[6]:
+# In[2]:
 
 
 miss_value = ['']
 clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 
 
-# In[7]:
+# In[3]:
 
 
 productlist = pd.read_csv('product.csv',na_values =miss_value )
@@ -23,7 +23,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 productlist
 
 
-# In[8]:
+# In[4]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -31,14 +31,14 @@ Colist = pd.read_excel('List of Companies.xlsx')
 Colist
 
 
-# In[9]:
+# In[5]:
 
 
 track = pd.read_excel('ADVANCE.xlsx')
 track
 
 
-# In[10]:
+# In[6]:
 
 
 def getBoldataframe(TradingCode, datalist):
@@ -52,7 +52,7 @@ def getBoldataframe(TradingCode, datalist):
     return datalist[codeVector]
 
 
-# In[11]:
+# In[7]:
 
 
 # Distangolishing rep.Exporter and exporter in tacking sheet.
@@ -83,7 +83,13 @@ for i in range(len(repOrMainCo)):
         cityOfImporter.append(cityImp)
 
 
-# In[12]:
+# In[8]:
+
+
+getBoldataframe(1, Colist)
+
+
+# In[28]:
 
 
 ones = {
@@ -141,7 +147,7 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[13]:
+# In[29]:
 
 
 amountToWord = []
@@ -160,7 +166,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[14]:
+# In[30]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -172,7 +178,7 @@ cityOfExporter = track['SourceCo.City']
 cityOfRepExporter = track['CO.City']
 
 
-# In[15]:
+# In[31]:
 
 
 def lcs(X , Y): 
@@ -201,7 +207,7 @@ def lcs(X , Y):
   
 
 
-# In[16]:
+# In[32]:
 
 
 def getClientRef(c, clientlist):
@@ -254,17 +260,17 @@ def bestmatch(candid,clientlist):
 # bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
-# In[17]:
+# In[38]:
 
 
 for i in range(len(importer)):
-    if (str(importer[i]) == '') or (str(exporter[i]) == str(np.nan)) or (str(exporter[i]) == 'NAN'):
+    if (str(importer[i]) == '') or (str(importer[i]) == str(np.nan)) or (str(importer[i]) == 'NAN'):
         imp , cityImp = randomImporter(track.loc[i,'TYPE OFProducts'],Colist)
         importer[i] =  imp
         cityOfImporter[i] = cityImp
 
 
-# In[18]:
+# In[40]:
 
 
 numlist = []
@@ -276,13 +282,13 @@ for client in importer:
     numlist.append(num)
     veclist.append(vec)
     if num != '':
-        cityOfRepImporter[c] = vec[3].upper()
+        cityOfRepImporter[c] = vec[3].title()
         importer[c] = vec[4].upper()
         cityOfImporter[c] = vec[5]
     c += 1 
 
 
-# In[19]:
+# In[41]:
 
 
 numlist = []
@@ -300,7 +306,7 @@ for client in repImporter:
     c += 1 
 
 
-# In[20]:
+# In[42]:
 
 
 def QtyClassification(amount, mean):
@@ -326,13 +332,13 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[21]:
+# In[44]:
 
 
-int(QtyClassification(400000 , 2991.8068396226417))
+# int(QtyClassification(400000 , 2991.8068396226417))
 
 
-# In[22]:
+# In[45]:
 
 
 #Choosing products
@@ -385,7 +391,7 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[23]:
+# In[46]:
 
 
 def changeCurrency(i , data):
@@ -400,7 +406,7 @@ def changeCurrency(i , data):
         return float(track.loc[i,'amount'] * 0.75)
 
 
-# In[24]:
+# In[47]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -416,7 +422,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[25]:
+# In[48]:
 
 
 #amount    currency
@@ -566,7 +572,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[26]:
+# In[49]:
 
 
 #Origin
@@ -588,7 +594,7 @@ for word in cityOfExporter:
         origin.append('Origin: ' + word)   
 
 
-# In[27]:
+# In[50]:
 
 
 #Loading
@@ -597,7 +603,7 @@ for city in cityOfExporter:
     load.append('Loading: ' + str(city))
 
 
-# In[28]:
+# In[51]:
 
 
 #dischareg
@@ -606,7 +612,7 @@ for city in cityOfImporter:
     dischareg.append('Discharge: ' + str(city))
 
 
-# In[29]:
+# In[52]:
 
 
 
