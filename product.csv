@@ -269,25 +269,25 @@ Wrought Iron Doors Entrance Doors Design,SETS,2800,10276,2408,BUILDING (2),1
 Wrought Iron Front Door,SETS,2300,8441,1978,BUILDING (2),1
 ZCP Vmzinc Titanium-Zinc Composite Panel,SQUARE METERS,70,256.9,60.2,BUILDING (2),1
 Zinc Coated Building Materials Metal Galvanized Roofing Sheet Steel Sheet,TONS,680,2495.6,584.8,BUILDING (2),1
-PVC Glazed Roof Tile Extrusion Machine,PC,50000,183500,42205,BUILDING MATERIAL MACHINERY,27
-Cement Hollow Brick Machine,SET,50000,183500,42205,BUILDING MATERIAL MACHINERY,27
-Brick Block Making Machine,PC,35000,183500,42205,BUILDING MATERIAL MACHINERY,27
-CNC Aluminium Double Head Cutting Saw Machine,SET,55000,128450,29543.5,BUILDING MATERIAL MACHINERY,27
-CZ Channel Steel Framing Making Machine,SET,56000,201850,46425.5,BUILDING MATERIAL MACHINERY,27
-Automatic AAC Block Making Machine,PC,500000,205520,47269.6,BUILDING MATERIAL MACHINERY,27
-Ball Mill with Large Diameter Sizes,PC,400000,1835000,422050,BUILDING MATERIAL MACHINERY,27
-Concrete Block Making Machine with ISO Approved,PC,500000,1468000,337640,BUILDING MATERIAL MACHINERY,27
-Paver Brick Block Making Machine,SET,90000,1835000,422050,BUILDING MATERIAL MACHINERY,27
-Metal Stud and Track Roll Forming Machine,SET,49980,330300,75969,BUILDING MATERIAL MACHINERY,27
-Fully Automatic Stationary Concrete Block Making Machine,PC,500000,183426.6,42188.12,BUILDING MATERIAL MACHINERY,27
-Automatic AAC Brick Making Machine for Construction,PC,500000,1835000,422050,BUILDING MATERIAL MACHINERY,27
-Paper Surface Gypsum Plaster Board Production Line,SET,1000000,1835000,422050,BUILDING MATERIAL MACHINERY,27
-PVC Bamboo Roof Tile Making Machine,SET,126000,3670000,844100,BUILDING MATERIAL MACHINERY,27
-Pipe Making Machine Production Line,PC,50000,462420,106356.6,BUILDING MATERIAL MACHINERY,27
-Roof Tile Roll Forming Machine,SET,31000,183500,42205,BUILDING MATERIAL MACHINERY,27
-Aluminum Profile Double Head Cutting Saw Machine,SET,36000,113770,26167.1,BUILDING MATERIAL MACHINERY,27
-Automatic Concrete Hollow Paver Block Brick Making Machine,PC,32000,132120,30387.6,BUILDING MATERIAL MACHINERY,27
-Qt8-15 Automatic Hydraulic Concrete Brick Making Machine,SET,25000,117440,27011.2,BUILDING MATERIAL MACHINERY,27
+PVC Glazed Roof Tile Extrusion Machine,PCS,50000,183500,42205,BUILDING MATERIAL MACHINERY,27
+Cement Hollow Brick Machine,SETS,50000,183500,42205,BUILDING MATERIAL MACHINERY,27
+Brick Block Making Machine,PCS,35000,183500,42205,BUILDING MATERIAL MACHINERY,27
+CNC Aluminium Double Head Cutting Saw Machine,SETS,55000,128450,29543.5,BUILDING MATERIAL MACHINERY,27
+CZ Channel Steel Framing Making Machine,SETS,56000,201850,46425.5,BUILDING MATERIAL MACHINERY,27
+Automatic AAC Block Making Machine,PCS,500000,205520,47269.6,BUILDING MATERIAL MACHINERY,27
+Ball Mill with Large Diameter Sizes,PCS,400000,1835000,422050,BUILDING MATERIAL MACHINERY,27
+Concrete Block Making Machine with ISO Approved,PCS,500000,1468000,337640,BUILDING MATERIAL MACHINERY,27
+Paver Brick Block Making Machine,SETS,90000,1835000,422050,BUILDING MATERIAL MACHINERY,27
+Metal Stud and Track Roll Forming Machine,SETS,49980,330300,75969,BUILDING MATERIAL MACHINERY,27
+Fully Automatic Stationary Concrete Block Making Machine,PCS,500000,183426.6,42188.12,BUILDING MATERIAL MACHINERY,27
+Automatic AAC Brick Making Machine for Construction,PCS,500000,1835000,422050,BUILDING MATERIAL MACHINERY,27
+Paper Surface Gypsum Plaster Board Production Line,SETS,1000000,1835000,422050,BUILDING MATERIAL MACHINERY,27
+PVC Bamboo Roof Tile Making Machine,SETS,126000,3670000,844100,BUILDING MATERIAL MACHINERY,27
+Pipe Making Machine Production Line,PCS,50000,462420,106356.6,BUILDING MATERIAL MACHINERY,27
+Roof Tile Roll Forming Machine,SETS,31000,183500,42205,BUILDING MATERIAL MACHINERY,27
+Aluminum Profile Double Head Cutting Saw Machine,SETS,36000,113770,26167.1,BUILDING MATERIAL MACHINERY,27
+Automatic Concrete Hollow Paver Block Brick Making Machine,PCS,32000,132120,30387.6,BUILDING MATERIAL MACHINERY,27
+Qt8-15 Automatic Hydraulic Concrete Brick Making Machine,SETS,25000,117440,27011.2,BUILDING MATERIAL MACHINERY,27
 Canon PowerShot ELPH 190 IS Digital Camera (Red) with 10x Optical Zoom ,PCS,189,693.63,162.54,CAMERA EQUIPMENT,53
 "AbergBest 21 Mega Pixels 2.7"" LCD Rechargeable HD Digital Camera Video camera Digital ",PCS,40,146.8,34.4,CAMERA EQUIPMENT,53
 Camera Strap Camera Sling Strap with Quick Release Plate,PCS,13,47.71,11.18,CAMERA EQUIPMENT,53
@@ -403,7 +403,7 @@ Panoramic Waterproof Surveillance IR Fisheye CCTV,PCS,330,1211.1,283.8,CCTV,23
 0.6/1kv Copper Conductor XLPE Insulated PVC Cable,M,70,256.9,60.2,CCTV,23
 Aluminum Wire Armored Cables Single Core (AWA),M,65,238.55,55.9,CCTV,23
 GYTA Outdoor Sm 9/125 Armored Fiber Optic Cable,M,0.5,1.84,0.43,CCTV,23
-Competitive Cat5e Network Cable,BOX,55,201.85,47.3,CCTV,23
+Competitive Cat5e Network Cable,BOXES,55,201.85,47.3,CCTV,23
 armor swa armor electric power wire cable,M,1,3.67,0.86,CCTV,23
 Sc/Upc-LC/Upc Sm Dx Fiber Patch Cord,PCS,2.2,8.07,1.89,CCTV,23
 IP66 Water Resistant CCTV Car Rear View Camera,PCS,21,77.07,18.06,CCTV,23
@@ -472,98 +472,96 @@ Humizone EDDHA-Fe 4.0 Microelement Chelate Fertilizer,TONS,5000,4300,18350,CHEMI
 Humic Acid Black Water Soluble Fertilizer for Field Crops,TONS,5230,4497.8,19194.1,CHEMICAL,45
 Amino Acid Chelate Nitrogen Fertilizer Flowing Powder,TONS,5230,4497.8,19194.1,CHEMICAL,45
 Amino Acid Chelated Zinc Fertilizer,TONS,2100,1806,7707,CHEMICAL,45
-General Purpose Silicone Rubber Htv,KG,6,22.02,5.06,CHEMICAL,45
-RTV-2 Tin Cured Silicone Rubber,KG,10.5,38.54,8.86,CHEMICAL,45
-Chlorosulfonated Polyethylene,TON,4800,17616,4051.68,CHEMICAL,45
-Stone Mold Making Liquid RTV2 Silicone Rubber,KG,6,22.02,5.06,CHEMICAL,45
-Liquid White RTV-2 Silicone Rubber,KG,6.9,25.32,5.82,CHEMICAL,45
-Platinum Curing Silicone Rubber for Mold Making,KG,10.5,38.54,8.86,CHEMICAL,45
-2 Parts Liquid Silicone Rubber,KG,9,33.03,7.6,CHEMICAL,45
+General Purpose Silicone Rubber Htv,KGS,6,22.02,5.06,CHEMICAL,45
+RTV-2 Tin Cured Silicone Rubber,KGS,10.5,38.54,8.86,CHEMICAL,45
+Chlorosulfonated Polyethylene,TONS,4800,17616,4051.68,CHEMICAL,45
+Stone Mold Making Liquid RTV2 Silicone Rubber,KGS,6,22.02,5.06,CHEMICAL,45
+Liquid White RTV-2 Silicone Rubber,KGS,6.9,25.32,5.82,CHEMICAL,45
+Platinum Curing Silicone Rubber for Mold Making,KGS,10.5,38.54,8.86,CHEMICAL,45
+2 Parts Liquid Silicone Rubber,KGS,9,33.03,7.6,CHEMICAL,45
 EPDM Rubber Granules for Children Playground Surface,M2,35,128.45,29.54,CHEMICAL,45
-Powder Form Dry Silane,KG,10,36.7,8.44,CHEMICAL,45
-Platinum Cured Silicone Rubber for Tire Mold,KG,13.88,50.94,11.72,CHEMICAL,45
-Gypsum Ornaments Mould Making Liquid RTV2 Silicone,KG,6,22.02,5.06,CHEMICAL,45
+Powder Form Dry Silane,KGS,10,36.7,8.44,CHEMICAL,45
+Platinum Cured Silicone Rubber for Tire Mold,KGS,13.88,50.94,11.72,CHEMICAL,45
+Gypsum Ornaments Mould Making Liquid RTV2 Silicone,KGS,6,22.02,5.06,CHEMICAL,45
 SGS Certification Polyurethane Glue ,M2,35,128.45,29.54,CHEMICAL,45
-Silicone Rubber for Concrete Moulds,KG,10.38,38.09,8.76,CHEMICAL,45
-Carbon Black N330 for Tyre Use,TON,850,3119.5,717.49,CHEMICAL,45
-Silicone Rubber Htv Material for Injection Molding,KG,6,22.02,5.06,CHEMICAL,45
-Alkali Fiberglass Double Yarn (CC13-128X1X2),TON,1500,5505,1266.15,CHEMICAL,45
-PC Chopped Strands,KG,1.25,4.59,1.06,CHEMICAL,45
-E Glass Chopped Strands for Thermal Plastic,KG,1.25,4.59,1.06,CHEMICAL,45
-Fiberglass Roving for Filament Winding,TON,850,3119.5,717.49,CHEMICAL,45
-G75 Fiberglass Yarn for Tape Weave,KG,2.6,9.54,2.19,CHEMICAL,45
-C-Glass Fiberglass Roving Yarn,PC,1,3.67,0.84,CHEMICAL,45
-Ec G75 Fiberglass Yarn for Fiberglass Cloth,PC,2.6,9.54,2.19,CHEMICAL,45
-E-Glass Fiberglass Roving Pultrusion Yarn 200 Tex,TON,830,3046.1,700.6,CHEMICAL,45
-Fiberglass Direct Roving for Filament Winding,TON,1000,3670,844.1,CHEMICAL,45
-Fiberglass Textured Yarn,KG,3,11.01,2.53,CHEMICAL,45
-Bulk Fiberglass Yarns,KG,3,11.01,2.53,CHEMICAL,45
-Fiberglass Texturized Yarn,KG,3,11.01,2.53,CHEMICAL,45
-Glass Fiber Bulked Yarn ,KG,3,11.01,2.53,CHEMICAL,45
-Fiberglass Roving for Spray up,TON,1050,3853.5,886.31,CHEMICAL,45
-Fiberglass Roving for SMC Process,TON,850,3119.5,717.49,CHEMICAL,45
-C-Glass Fiber Medium Alkali Fiberglass Yarn,TON,1400,5138,1181.74,CHEMICAL,45
-Fiberglass Assembled Roving for Chopping,TON,850,3119.5,717.49,CHEMICAL,45
-2400tex Fiberglass E/C-Glass Direct Roving,KG,850,3119.5,717.49,CHEMICAL,45
+Silicone Rubber for Concrete Moulds,KGS,10.38,38.09,8.76,CHEMICAL,45
+Carbon Black N330 for Tyre Use,TONS,850,3119.5,717.49,CHEMICAL,45
+Silicone Rubber Htv Material for Injection Molding,KGS,6,22.02,5.06,CHEMICAL,45
+Alkali Fiberglass Double Yarn (CC13-128X1X2),TONS,1500,5505,1266.15,CHEMICAL,45
+PC Chopped Strands,KGS,1.25,4.59,1.06,CHEMICAL,45
+E Glass Chopped Strands for Thermal Plastic,KGS,1.25,4.59,1.06,CHEMICAL,45
+Fiberglass Roving for Filament Winding,TONS,850,3119.5,717.49,CHEMICAL,45
+G75 Fiberglass Yarn for Tape Weave,KGS,2.6,9.54,2.19,CHEMICAL,45
+C-Glass Fiberglass Roving Yarn,PCS,1,3.67,0.84,CHEMICAL,45
+Ec G75 Fiberglass Yarn for Fiberglass Cloth,PCS,2.6,9.54,2.19,CHEMICAL,45
+E-Glass Fiberglass Roving Pultrusion Yarn 200 Tex,TONS,830,3046.1,700.6,CHEMICAL,45
+Fiberglass Direct Roving for Filament Winding,TONS,1000,3670,844.1,CHEMICAL,45
+Fiberglass Textured Yarn,KGS,3,11.01,2.53,CHEMICAL,45
+Bulk Fiberglass Yarns,KGS,3,11.01,2.53,CHEMICAL,45
+Fiberglass Texturized Yarn,KGS,3,11.01,2.53,CHEMICAL,45
+Glass Fiber Bulked Yarn ,KGS,3,11.01,2.53,CHEMICAL,45
+Fiberglass Roving for Spray up,TONS,1050,3853.5,886.31,CHEMICAL,45
+Fiberglass Roving for SMC Process,TONS,850,3119.5,717.49,CHEMICAL,45
+C-Glass Fiber Medium Alkali Fiberglass Yarn,TONS,1400,5138,1181.74,CHEMICAL,45
+Fiberglass Assembled Roving for Chopping,TONS,850,3119.5,717.49,CHEMICAL,45
+2400tex Fiberglass E/C-Glass Direct Roving,KGS,850,3119.5,717.49,CHEMICAL,45
 0.25mm PTFE Coated Fiberglass Adhesive Tape,M2,4.5,16.52,3.8,CHEMICAL,45
-Fiberglass Products for Compression Molding SMC,TON,850,3119.5,717.49,CHEMICAL,45
-Electrostatic Thermosetting Spray Epoxy Polyester Powder Coating,KG,10,36.7,8.44,CHEMICAL,45
-Low Gloss Matt Hardener Tp68 with Polyester Resin for Powder Coating,KG,5,18.35,4.22,CHEMICAL,45
-China Pigment Manufacturer Low Price Rutile TiO2 Titanium Dioxide R902,KG,2000,7340,1688.2,CHEMICAL,45
-Ral Colours Thermosetting Powder Coating,KG,3.5,12.85,2.95,CHEMICAL,45
-Sulfur All Colors Semi Gloss Epoxy Polyester Powder Paint Coating,KG,10,36.7,8.44,CHEMICAL,45
-High Reflective Road Marking Thermoplastic Powder Coating,TON,800,2936,675.28,CHEMICAL,45
-White and Yellow Reflective Traffic Line Thermoplastic Road Marking Paint,TON,599,2198.33,505.62,CHEMICAL,45
-China Top 10 UV Coating Factory- Roller Coating UV Varnish Paint Coating for Wood Flooring,TON,5000,18350,4220.5,CHEMICAL,45
-Powder Paint Coating Factory Price Electrostatic Thermosetting,KG,3,11.01,2.53,CHEMICAL,45
-Electrostatic/Tribo Low Light Matt Polyester Powder Coating Paints,KG,10,36.7,8.44,CHEMICAL,45
-Spray Mirror Chrome Silver Effect Powder Coating,KG,8,29.36,6.75,CHEMICAL,45
-Varnish High Solid Lacquer Car 2K Clearcoat Auto Paint,BOX,10,36.7,8.44,CHEMICAL,45
+Fiberglass Products for Compression Molding SMC,TONS,850,3119.5,717.49,CHEMICAL,45
+Electrostatic ThermoSETSting Spray Epoxy Polyester Powder Coating,KGS,10,36.7,8.44,CHEMICAL,45
+Low Gloss Matt Hardener Tp68 with Polyester Resin for Powder Coating,KGS,5,18.35,4.22,CHEMICAL,45
+China Pigment Manufacturer Low Price Rutile TiO2 Titanium Dioxide R902,KGS,2000,7340,1688.2,CHEMICAL,45
+Ral Colours ThermoSETSting Powder Coating,KGS,3.5,12.85,2.95,CHEMICAL,45
+Sulfur All Colors Semi Gloss Epoxy Polyester Powder Paint Coating,KGS,10,36.7,8.44,CHEMICAL,45
+High Reflective Road Marking Thermoplastic Powder Coating,TONS,800,2936,675.28,CHEMICAL,45
+White and Yellow Reflective Traffic Line Thermoplastic Road Marking Paint,TONS,599,2198.33,505.62,CHEMICAL,45
+China Top 10 UV Coating Factory- Roller Coating UV Varnish Paint Coating for Wood Flooring,TONS,5000,18350,4220.5,CHEMICAL,45
+Powder Paint Coating Factory Price Electrostatic ThermoSETSting,KGS,3,11.01,2.53,CHEMICAL,45
+Electrostatic/Tribo Low Light Matt Polyester Powder Coating Paints,KGS,10,36.7,8.44,CHEMICAL,45
+Spray Mirror Chrome Silver Effect Powder Coating,KGS,8,29.36,6.75,CHEMICAL,45
+Varnish High Solid Lacquer Car 2K Clearcoat Auto Paint,BOXES,10,36.7,8.44,CHEMICAL,45
 Good Leveling 1k Silver Colors Car Paint,L,20,73.4,16.88,CHEMICAL,45
 Hot Sale Acrylic Spray Paint for Car Usage,L,10,36.7,8.44,CHEMICAL,45
-Replace of Electroplating Epoxy Polyester Chrome Effect Powder Coating,KG,7.5,27.53,6.33,CHEMICAL,45
+Replace of Electroplating Epoxy Polyester Chrome Effect Powder Coating,KGS,7.5,27.53,6.33,CHEMICAL,45
 Easy Application 1k Crystal Pearl Colors Car Paint,L,20,73.4,16.88,CHEMICAL,45
 Easy Application 1k Crystal Pearl Colors Car Paint,L,20,73.4,16.88,CHEMICAL,45
-C5 Petroleum Resin for Hot Melt Road Marking Paint,TON,2000,7340,1688.2,CHEMICAL,45
-Kastar New Product Epoxy Glue Cornice Adhesive,PC,5,18.35,4.22,CHEMICAL,45
-Neutral Silicone Weatherproof Sealant (Antas-193),PC,3,11.01,2.53,CHEMICAL,45
-High Quality Free Sample Waterproof Epoxy Tile Grout,PC,12.99,47.67,10.96,CHEMICAL,45
-0 Voc Waterborne Epoxy Hardener for Ground Floor with Washable,PC,5.4,19.82,4.56,CHEMICAL,45
-Vc-Copolymer Resin MP25 for Anti-Corrosion Coating,TON,3200,11744,2701.12,CHEMICAL,45
-Visbella DIY Car Care Headlight Restoration Kit,PC,3.45,12.66,2.91,CHEMICAL,45
-High Viscosity Chemical Polyurethane Used for Sponge Scrap Foam and Scrap Rubber Adhesive Glue,KG,2.99,10.97,2.52,CHEMICAL,45
-China Factory Transparent Acrylic Resin Hydrophilic Waterborne Polyurethane,KG,7,25.69,5.91,CHEMICAL,45
-Clear Hot Melt Glue Stick for Multipurpose,KG,2.5,9.18,2.11,CHEMICAL,45
-Water Based Acrylic Pressure Sensitive Adhesive Tx-109 for Surface Protective Film,TON,1800,6606,1519.38,CHEMICAL,45
-Water Based Paper Adhesive Glue for Making Paper Tube/Can,TON,460,1688.2,388.29,CHEMICAL,45
-Environment-Friendly Water Based Acrylica Pressure Sensitive Adhesive Tx-310 for Surface Protective Film,TON,1800,6606,1519.38,CHEMICAL,45
-High Transprent Epoxy Resin for Surfboard Coating,KG,12,44.04,10.13,CHEMICAL,45
-Leather Primer 791L Transparent Viscous Liquid,PC,33,121.11,27.86,CHEMICAL,45
-OPP Tape Adhesive,TON,1300,4771,1097.33,CHEMICAL,45
-Dry Laminating Adhesive for Food Soft Packing (HY-751/G75),KG,3.5,12.85,2.95,CHEMICAL,45
-Pur Adhesive for Textile Lamination (PUR360),TON,9000,33030,7596.9,CHEMICAL,45
-Excellent Rinterior Wall Coating Material PVA/Polyvinyl Alcohol,TON,1400,5138,1181.74,CHEMICAL,45
-Vinyl Chloride Copolymer Resin for Protection Coatings  Gravure Ink,TON,3000,11010,2532.3,CHEMICAL,45
-Environmentally White Glue Adhesive Be Used in Woodworking,TON,1300,4771,1097.33,CHEMICAL,45
-Water Based Acrylic Pressure Sensitive Adhesive Tx-208A for Surface Protective Film,TON,1500,5505,1266.15,CHEMICAL,45
+C5 Petroleum Resin for Hot Melt Road Marking Paint,TONS,2000,7340,1688.2,CHEMICAL,45
+Kastar New Product Epoxy Glue Cornice Adhesive,PCS,5,18.35,4.22,CHEMICAL,45
+Neutral Silicone Weatherproof Sealant (Antas-193),PCS,3,11.01,2.53,CHEMICAL,45
+High Quality Free Sample Waterproof Epoxy Tile Grout,PCS,12.99,47.67,10.96,CHEMICAL,45
+0 Voc Waterborne Epoxy Hardener for Ground Floor with Washable,PCS,5.4,19.82,4.56,CHEMICAL,45
+Vc-Copolymer Resin MP25 for Anti-Corrosion Coating,TONS,3200,11744,2701.12,CHEMICAL,45
+Visbella DIY Car Care Headlight Restoration Kit,PCS,3.45,12.66,2.91,CHEMICAL,45
+High Viscosity Chemical Polyurethane Used for Sponge Scrap Foam and Scrap Rubber Adhesive Glue,KGS,2.99,10.97,2.52,CHEMICAL,45
+China Factory Transparent Acrylic Resin Hydrophilic Waterborne Polyurethane,KGS,7,25.69,5.91,CHEMICAL,45
+Clear Hot Melt Glue Stick for Multipurpose,KGS,2.5,9.18,2.11,CHEMICAL,45
+Water Based Acrylic Pressure Sensitive Adhesive Tx-109 for Surface Protective Film,TONS,1800,6606,1519.38,CHEMICAL,45
+Water Based Paper Adhesive Glue for Making Paper Tube/Can,TONS,460,1688.2,388.29,CHEMICAL,45
+Environment-Friendly Water Based Acrylica Pressure Sensitive Adhesive Tx-310 for Surface Protective Film,TONS,1800,6606,1519.38,CHEMICAL,45
+High Transprent Epoxy Resin for Surfboard Coating,KGS,12,44.04,10.13,CHEMICAL,45
+Leather Primer 791L Transparent Viscous Liquid,PCS,33,121.11,27.86,CHEMICAL,45
+OPP Tape Adhesive,TONS,1300,4771,1097.33,CHEMICAL,45
+Dry Laminating Adhesive for Food Soft Packing (HY-751/G75),KGS,3.5,12.85,2.95,CHEMICAL,45
+Pur Adhesive for Textile Lamination (PUR360),TONS,9000,33030,7596.9,CHEMICAL,45
+Excellent Rinterior Wall Coating Material PVA/Polyvinyl Alcohol,TONS,1400,5138,1181.74,CHEMICAL,45
+Vinyl Chloride Copolymer Resin for Protection Coatings  Gravure Ink,TONS,3000,11010,2532.3,CHEMICAL,45
+Environmentally White Glue Adhesive Be Used in Woodworking,TONS,1300,4771,1097.33,CHEMICAL,45
+Water Based Acrylic Pressure Sensitive Adhesive Tx-208A for Surface Protective Film,TONS,1500,5505,1266.15,CHEMICAL,45
 Water Based Acrylic Pressure Sensitive Adhesive Tx-304 for Surface Protective Film,TONS,1300,4771,1097.33,CHEMICAL,45
-Two Part Structural Silicone Sealant for Curtain Wall Glazing,PC,499,1831.33,421.21,CHEMICAL,45
-HCPE High Chlorinated Polyethylene for Adhesive and Coating,TON,2200,8074,1857.02,CHEMICAL,45
-"
-Water Based Pressure Sensitive Adhesive for Label",TON,1500,5505,1266.15,CHEMICAL,45
+Two Part Structural Silicone Sealant for Curtain Wall Glazing,PCS,499,1831.33,421.21,CHEMICAL,45
+HCPE High Chlorinated Polyethylene for Adhesive and Coating,TONS,2200,8074,1857.02,CHEMICAL,45
 Chenglin T8018 PUR polyurethane glue for PET box  PVC box  PP box etc. gluing,TONS,130,477.1,109.73,CHEMICAL,45
-PVC Foam Board/ Sheet/ Panel,PC,180,660.6,151.94,CHEMICAL,45
-Good Flatness Green Fabric Glass Sheet (FR-4),KG,3,11.01,2.53,CHEMICAL,45
-100% Lucite Virgin Cast Acrylic Sheet (Q(1260*1870)),PC,3160,11597.2,2667.36,CHEMICAL,45
-Anti-Static Super Clear Soft Flexible Fabric Plastic PVC Sheet (polyvinyl chloride),PC,53,194.51,44.74,CHEMICAL,45
-100% Virgin Lucite Crystal Clear Cast Acrylic Sheet 000,KG,3590,13175.3,3030.32,CHEMICAL,45
+PVC Foam Board/ Sheet/ Panel,PCS,180,660.6,151.94,CHEMICAL,45
+Good Flatness Green Fabric Glass Sheet (FR-4),KGS,3,11.01,2.53,CHEMICAL,45
+100% Lucite Virgin Cast Acrylic Sheet (Q(1260*1870)),PCS,3160,11597.2,2667.36,CHEMICAL,45
+Anti-Static Super Clear Soft Flexible Fabric Plastic PVC Sheet (polyvinyl chloride),PCS,53,194.51,44.74,CHEMICAL,45
+100% Virgin Lucite Crystal Clear Cast Acrylic Sheet 000,KGS,3590,13175.3,3030.32,CHEMICAL,45
 Polar Anti-Insect Welding Soft Clear Plastic PVC Strip Door Curtain with EU RoHS,ROLL,40,146.8,33.76,CHEMICAL,45
-High Impact Super Clear Plastic Pet Sheet 1mm APET Sheet,TON,1250,4587.5,1055.13,CHEMICAL,45
-Clear Plastic Acrylic Plexiglass Perspex Sheet,TON,3000,11010,2532.3,CHEMICAL,45
-0.21mm-5mm UV Printing Plastic Transparent Rigid PVC Sheet,TON,1700,6239,1434.97,CHEMICAL,45
-Fluorescent Red Acrylic Sheet 991,TON,3650,13395.5,3080.97,CHEMICAL,45
-Solid PP Polypropylene Sheet / Board,TON,1500,5505,1266.15,CHEMICAL,45
-Heavy-Duty/Durable/Colorful Polyethylene HDPE Temporary Road Mats for Sale,PC,200,734,168.82,CHEMICAL,45
+High Impact Super Clear Plastic Pet Sheet 1mm APET Sheet,TONS,1250,4587.5,1055.13,CHEMICAL,45
+Clear Plastic Acrylic Plexiglass Perspex Sheet,TONS,3000,11010,2532.3,CHEMICAL,45
+0.21mm-5mm UV Printing Plastic Transparent Rigid PVC Sheet,TONS,1700,6239,1434.97,CHEMICAL,45
+Fluorescent Red Acrylic Sheet 991,TONS,3650,13395.5,3080.97,CHEMICAL,45
+Solid PP Polypropylene Sheet / Board,TONS,1500,5505,1266.15,CHEMICAL,45
+Heavy-Duty/Durable/Colorful Polyethylene HDPE Temporary Road Mats for Sale,PCS,200,734,168.82,CHEMICAL,45
 PP Plastic Sheets Rigid Plastic Sheets for Tank and Equipment,KGS,2,7.34,1.69,CHEMICAL,45
 4 X 48 X 96 Inches 1270 X 2490 mm Packaging PE Foam Sheets,M2,220,807.4,185.7,CHEMICAL,45
 0.5mm White Matte/Matte HIPS Sheet for Advertising Printing,TONS,1700,6239,1434.97,CHEMICAL,45
@@ -593,55 +591,55 @@ OEM HDPE Packaging Plastic Clothes Bag with Handle,TONS,1980,7266.6,1702.8,CHEMI
 LDPE Plastic Reclosable Bags,TONS,2600,9542,2236,CHEMICALS-PLASTIC,7
 Moistureproof Packaging 50kg Plastic Rice Bags,TONS,2850,10459.5,2451,CHEMICALS-PLASTIC,7
 Plastic Silage Bags,PCS,365.5,1341.39,314.33,CHEMICALS-PLASTIC,7
-Z3032X10 Precision Metal Radial Drill Drilling Machine,SET,1800,6606,1519.38,DRIILING MACHINE,27
-Earth Auger for Tree Planting Digging Hole,PC,150,6606,1519.38,DRIILING MACHINE,27
-CNC Drilling Punching Machine for Steel Plates Tube Sheets,PC,75000,550.5,126.62,DRIILING MACHINE,27
-Dx-50 75mm Cutting Depth Core Drilling Magnetic Machine,PC,450,275250,63307.5,DRIILING MACHINE,27
-CNC Drilling Machine for H-Beam Model,SET,70000,1651.5,379.85,DRIILING MACHINE,27
-Cayken 180mm Diamond Core Drill Machine,PC,275,256900,59087,DRIILING MACHINE,27
-Bt40 Drilling Milling and Taping CNC Machine,SET,88200,1009.25,232.13,DRIILING MACHINE,27
-CNC Automatic 2 Spindle Nuts Tapping Machine,PC,10500,323694,74449.62,DRIILING MACHINE,27
-Top Manufacturer CNC Drilling Machine,SET,49000,38535,8863.05,DRIILING MACHINE,27
-Horizontal CNC Drilling Milling and Tapping Machine,PC,155000,179830,41360.9,DRIILING MACHINE,27
-Drill Annular Cutter Drilling Machine,PC,310,568850,130835.5,DRIILING MACHINE,27
-Zk21xxa Deep Hole Drilling Machine,PC,55000,1137.7,261.67,DRIILING MACHINE,27
-Hydraulic Radial Arm Drilling Machine,PC,20000,201850,46425.5,DRIILING MACHINE,27
-T2120g Deep Hole Drilling and Boring Machine,PC,101000,73400,16882,DRIILING MACHINE,27
-Hydraulic Radial Machine Vertical Driller,PC,1000,370670,85254.1,DRIILING MACHINE,27
+Z3032X10 Precision Metal Radial Drill Drilling Machine,SETS,1800,6606,1519.38,DRIILING MACHINE,27
+Earth Auger for Tree Planting Digging Hole,PCS,150,6606,1519.38,DRIILING MACHINE,27
+CNC Drilling Punching Machine for Steel Plates Tube Sheets,PCS,75000,550.5,126.62,DRIILING MACHINE,27
+Dx-50 75mm Cutting Depth Core Drilling Magnetic Machine,PCS,450,275250,63307.5,DRIILING MACHINE,27
+CNC Drilling Machine for H-Beam Model,SETS,70000,1651.5,379.85,DRIILING MACHINE,27
+Cayken 180mm Diamond Core Drill Machine,PCS,275,256900,59087,DRIILING MACHINE,27
+Bt40 Drilling Milling and Taping CNC Machine,SETS,88200,1009.25,232.13,DRIILING MACHINE,27
+CNC Automatic 2 Spindle Nuts Tapping Machine,PCS,10500,323694,74449.62,DRIILING MACHINE,27
+Top Manufacturer CNC Drilling Machine,SETS,49000,38535,8863.05,DRIILING MACHINE,27
+Horizontal CNC Drilling Milling and Tapping Machine,PCS,155000,179830,41360.9,DRIILING MACHINE,27
+Drill Annular Cutter Drilling Machine,PCS,310,568850,130835.5,DRIILING MACHINE,27
+Zk21xxa Deep Hole Drilling Machine,PCS,55000,1137.7,261.67,DRIILING MACHINE,27
+Hydraulic Radial Arm Drilling Machine,PCS,20000,201850,46425.5,DRIILING MACHINE,27
+T2120g Deep Hole Drilling and Boring Machine,PCS,101000,73400,16882,DRIILING MACHINE,27
+Hydraulic Radial Machine Vertical Driller,PCS,1000,370670,85254.1,DRIILING MACHINE,27
 Indoor P4 High Resolution Video LED Display,M2,735,2697.45,632.1,ELECTRONIC-LED DISPLAY,35
-Retnal Pixel Display Retal LED Display P3.9 P4.8,PC,35,128.45,30.1,ELECTRONIC-LED DISPLAY,35
+Retnal Pixel Display Retal LED Display P3.9 P4.8,PCS,35,128.45,30.1,ELECTRONIC-LED DISPLAY,35
 Low Power Consumption Stage LED Display,M2,2000,7340,1720,ELECTRONIC-LED DISPLAY,35
 Video Display Advertising LED Screen of SMD3535,M2,600,2202,516,ELECTRONIC-LED DISPLAY,35
 P10 Full Color Outdoor LED Display,M2,600,2202,516,ELECTRONIC-LED DISPLAY,35
 Super Light Portable LED Display (P4.81  P5.95  P6.25),M2,500,1835,430,ELECTRONIC-LED DISPLAY,35
-P2.98mm Full Color Indoor LED Display,PC,220,807.4,189.2,ELECTRONIC-LED DISPLAY,35
+P2.98mm Full Color Indoor LED Display,PCS,220,807.4,189.2,ELECTRONIC-LED DISPLAY,35
 IP65 Waterproof P6 SMD Outdoor LED Display Screen,M2,1000,3670,860,ELECTRONIC-LED DISPLAY,35
 Outdoor Full Color 7000 CD P6/P8/P10 LED Display,M2,448,1644.16,385.28,ELECTRONIC-LED DISPLAY,35
 P10mm 7500CD Advertising LED Display Screen,M2,492,1805.64,423.12,ELECTRONIC-LED DISPLAY,35
-7500CD LED Screen Advertising Display (P4 P5 P6 P8 P10),BOX,499,1831.33,429.14,ELECTRONIC-LED DISPLAY,35
-UL Listed 20W-60W Indoor Constant LED Driver Long Case,PC,6,22.02,5.16,ELECTRONIC-LED-Power-Supply,35
-400W Rainproof Power Supply for LED Light,PC,7,25.69,6.02,ELECTRONIC-LED-Power-Supply,35
-100W 12V Waterproof LED Driver with Bis,PC,11.5,42.21,9.89,ELECTRONIC-LED-Power-Supply,35
-20W 24V LED Lighting Driver,PC,2.5,9.18,2.15,ELECTRONIC-LED-Power-Supply,35
-Triac LED Driver 150W ,PC,17,62.39,14.62,ELECTRONIC-LED-Power-Supply,35
-Outdoor Waterproof 12V Slim LED,PC,16.5,60.56,14.19,ELECTRONIC-LED-Power-Supply,35
-Waterproof LED Triac Dimmable,PC,62,227.54,53.32,ELECTRONIC-LED-Power-Supply,35
-IP67 Waterproof LED,PC,26.5,97.26,22.79,ELECTRONIC-LED-Power-Supply,35
-IP20 12V 250W SMPS Switching LED,PC,13,47.71,11.18,ELECTRONIC-LED-Power-Supply,35
-Outdoor LED Driver 250W 36V IP65,PC,39,143.13,33.54,ELECTRONIC-LED-Power-Supply,35
-36V 5A IP65 Waterproof LED Switching,PC,58,212.86,49.88,ELECTRONIC-LED-Power-Supply,35
-80W-320W Outdoor Waterproof IP65/67 LED Driver,PC,35,128.45,30.1,ELECTRONIC-LED-Power-Supply,35
-Y2 Series Electric Motor for Pump and Blower,PC,58,212.86,49.88,ELECTRONIC-Motor-Pump-Blower,35
-Cast Iron Housing Three Phase Electric Motor,PC,100,367,86,ELECTRONIC-Motor-Pump-Blower,35
-12V 250W DC Brushed Gear Motor on Golf Trolleys,PC,108,396.36,92.88,ELECTRONIC-Motor-Pump-Blower,35
-Ie2/Ie3 Y2 Series Electric Industion Motor with 380V 50Hz,PC,35,128.45,30.1,ELECTRONIC-Motor-Pump-Blower,35
-OMR Series Hydraulic Driving Wheel Gear Orbital Motor,PC,55,201.85,47.3,ELECTRONIC-Motor-Pump-Blower,35
-Three Phase Asynchronous AC Induction Electric Gear ,PC,280,1027.6,240.8,ELECTRONIC-Motor-Pump-Blower,35
-3 Phase Asynchronous AC Induction Electrical Geared ,PC,200,734,172,ELECTRONIC-Motor-Pump-Blower,35
-DBM33 Diamond Core Drill Motor with 3300W Power,PC,590,2165.3,507.4,ELECTRONIC-Motor-Pump-Blower,35
-12V/24V DC Right Door Mechanism Motor,PC,37,135.79,31.82,ELECTRONIC-Motor-Pump-Blower,35
-ZD 90mm Small Electric DC Gear Motor,PC,83,304.61,71.38,ELECTRONIC-Motor-Pump-Blower,35
-Asynchronous Three Phase Electric Motor,SET,30000,110100,25800,ELECTRONIC-Motor-Pump-Blower,35
+7500CD LED Screen Advertising Display (P4 P5 P6 P8 P10),BOXES,499,1831.33,429.14,ELECTRONIC-LED DISPLAY,35
+UL Listed 20W-60W Indoor Constant LED Driver Long Case,PCS,6,22.02,5.16,ELECTRONIC-LED-Power-Supply,35
+400W Rainproof Power Supply for LED Light,PCS,7,25.69,6.02,ELECTRONIC-LED-Power-Supply,35
+100W 12V Waterproof LED Driver with Bis,PCS,11.5,42.21,9.89,ELECTRONIC-LED-Power-Supply,35
+20W 24V LED Lighting Driver,PCS,2.5,9.18,2.15,ELECTRONIC-LED-Power-Supply,35
+Triac LED Driver 150W ,PCS,17,62.39,14.62,ELECTRONIC-LED-Power-Supply,35
+Outdoor Waterproof 12V Slim LED,PCS,16.5,60.56,14.19,ELECTRONIC-LED-Power-Supply,35
+Waterproof LED Triac Dimmable,PCS,62,227.54,53.32,ELECTRONIC-LED-Power-Supply,35
+IP67 Waterproof LED,PCS,26.5,97.26,22.79,ELECTRONIC-LED-Power-Supply,35
+IP20 12V 250W SMPS Switching LED,PCS,13,47.71,11.18,ELECTRONIC-LED-Power-Supply,35
+Outdoor LED Driver 250W 36V IP65,PCS,39,143.13,33.54,ELECTRONIC-LED-Power-Supply,35
+36V 5A IP65 Waterproof LED Switching,PCS,58,212.86,49.88,ELECTRONIC-LED-Power-Supply,35
+80W-320W Outdoor Waterproof IP65/67 LED Driver,PCS,35,128.45,30.1,ELECTRONIC-LED-Power-Supply,35
+Y2 Series Electric Motor for Pump and Blower,PCS,58,212.86,49.88,ELECTRONIC-Motor-Pump-Blower,35
+Cast Iron Housing Three Phase Electric Motor,PCS,100,367,86,ELECTRONIC-Motor-Pump-Blower,35
+12V 250W DC Brushed Gear Motor on Golf Trolleys,PCS,108,396.36,92.88,ELECTRONIC-Motor-Pump-Blower,35
+Ie2/Ie3 Y2 Series Electric Industion Motor with 380V 50Hz,PCS,35,128.45,30.1,ELECTRONIC-Motor-Pump-Blower,35
+OMR Series Hydraulic Driving Wheel Gear Orbital Motor,PCS,55,201.85,47.3,ELECTRONIC-Motor-Pump-Blower,35
+Three Phase Asynchronous AC Induction Electric Gear ,PCS,280,1027.6,240.8,ELECTRONIC-Motor-Pump-Blower,35
+3 Phase Asynchronous AC Induction Electrical Geared ,PCS,200,734,172,ELECTRONIC-Motor-Pump-Blower,35
+DBM33 Diamond Core Drill Motor with 3300W Power,PCS,590,2165.3,507.4,ELECTRONIC-Motor-Pump-Blower,35
+12V/24V DC Right Door Mechanism Motor,PCS,37,135.79,31.82,ELECTRONIC-Motor-Pump-Blower,35
+ZD 90mm Small Electric DC Gear Motor,PCS,83,304.61,71.38,ELECTRONIC-Motor-Pump-Blower,35
+Asynchronous Three Phase Electric Motor,SETS,30000,110100,25800,ELECTRONIC-Motor-Pump-Blower,35
 GPS Tracker for Car and Motorcycle  Acc Monitor (TK115),PCS,28,102.76,24.08,ELECTRONIC-Motor-Pump-Blower,35
 GPS with Engine Cut off and Crash Alerts (GT08-KW),PCS,33,121.11,28.38,ELECTRONIC-Motor-Pump-Blower,35
 Foif A90 Gnss Rtk Receiver 555 Channels GPS (A90+),PCS,5275,19359.25,4536.5,ELECTRONIC-Motor-Pump-Blower,35
@@ -652,25 +650,25 @@ Rtk GPS Receiver Surveying Instrument G992,PCS,11500,42205,9890,ELECTRONIC-Motor
 Trimble R2 GPS Gnss Rtk Rover Trimble GPS w,PCS,6600,24222,5676,ELECTRONIC-Motor-Pump-Blower,35
 GPS Tracking Device for Bike Motorcycle Car Lt02-Ez,PCS,18,66.06,15.48,ELECTRONIC-Motor-Pump-Blower,35
 GPS Rtk Receiver Base+Rover (V30),PCS,2980,10936.6,2562.8,ELECTRONIC-Motor-Pump-Blower,35
-Rtk GPS Surveying System,SET,11500,42205,9890,ELECTRONIC-Motor-Pump-Blower,35
-AC DC Power Adapter 24V 7A Tattoo,PC,32,117.44,27.52,ELECTRONIC-Power-Adaptor,35
-Mushroom QC3.0 LED Light 5 USB Ports,PC,12,44.04,10.32,ELECTRONIC-Power-Adaptor,35
-Interchangeable Charger USB Adapter,PC,2.6,9.54,2.24,ELECTRONIC-Power-Adaptor,35
-5W 3V/5V/9V/12V/15V Wall-Mounted Type  AC/DC Power Adapter,PC,3.7,13.58,3.18,ELECTRONIC-Power-Adaptor,35
-AC DC Switching Power Adapter with CE FCC RoHS,PC,12,44.04,10.32,ELECTRONIC-Power-Adaptor,35
-Charger Laptop Adapter for HP Elite X3  HP Pavilion X2,PC,11,40.37,9.46,ELECTRONIC-Power-Adaptor,35
-70W laptop AC DC Adapter with UL FCC,PC,9,33.03,7.74,ELECTRONIC-Power-Adaptor,35
+Rtk GPS Surveying System,SETS,11500,42205,9890,ELECTRONIC-Motor-Pump-Blower,35
+AC DC Power Adapter 24V 7A Tattoo,PCS,32,117.44,27.52,ELECTRONIC-Power-Adaptor,35
+Mushroom QC3.0 LED Light 5 USB Ports,PCS,12,44.04,10.32,ELECTRONIC-Power-Adaptor,35
+Interchangeable Charger USB Adapter,PCS,2.6,9.54,2.24,ELECTRONIC-Power-Adaptor,35
+5W 3V/5V/9V/12V/15V Wall-Mounted Type  AC/DC Power Adapter,PCS,3.7,13.58,3.18,ELECTRONIC-Power-Adaptor,35
+AC DC Switching Power Adapter with CE FCC RoHS,PCS,12,44.04,10.32,ELECTRONIC-Power-Adaptor,35
+Charger Laptop Adapter for HP Elite X3  HP Pavilion X2,PCS,11,40.37,9.46,ELECTRONIC-Power-Adaptor,35
+70W laptop AC DC Adapter with UL FCC,PCS,9,33.03,7.74,ELECTRONIC-Power-Adaptor,35
 adapter 32 A  with CrossLink interface,PCS,12.2,44.83,10.7,ELECTRONICS,35
 bolt for TCC-profile  with nut and spring washer,PCS,13.42,49.32,11.77,ELECTRONICS,35
 box terminal for Cu cables  35 - 150 mmآ²,PCS,12.06,44.33,10.58,ELECTRONICS,35
-busbar adapter for OMUS 30Compact,PC,13.68,50.28,12,ELECTRONICS,35
+busbar adapter for OMUS 30Compact,PCS,13.68,50.28,12,ELECTRONICS,35
 busbar support 3 phases + N + E  with end cover,PCS,11.52,42.32,10.1,ELECTRONICS,35
 busbar terminal for longitudinal connection  120 - 240 mmآ²,M,13.53,49.74,11.87,ELECTRONICS,35
 clip-on screw connection  for cable lugs  M8,PCS,11.94,43.87,10.47,ELECTRONICS,35
 clip-on screw connection  for cable lugs  M8,TONS,11.94,43.87,10.47,ELECTRONICS,35
 completion section  649 mm long,PCS,13.27,48.77,11.64,ELECTRONICS,35
 connecting terminal  for 3-pole comb-type busbar,PCS,11.81,43.41,10.36,ELECTRONICS,35
-connection space cover  top / bottom attachable,PC,13.48,49.53,11.82,ELECTRONICS,35
+connection space cover  top / bottom attachable,PCS,13.48,49.53,11.82,ELECTRONICS,35
 cover cap  3-pole  54 mm wide,PCS,12.77,46.93,11.2,ELECTRONICS,35
 cylindr fuse link 10 A  690 V,ROLL,13.59,49.94,11.92,ELECTRONICS,35
 cylindr. fuse link 25 A  690 V  gR,PCS,11.94,43.87,10.47,ELECTRONICS,35
@@ -680,7 +678,7 @@ D0-fuse base  busbar-mounting- 36mm,KM,13.65,50.15,11.97,ELECTRONICS,35
 D-fuse base  42mm  gauge ring,PCS,12.33,45.29,10.81,ELECTRONICS,35
 direct rotary handle  graphite grey,ROLL,13.48,49.53,11.82,ELECTRONICS,35
 earth/neutral busbar 63A  30 terminal points 10mmآ²,PCS,12.85,47.22,11.27,ELECTRONICS,35
-extension set for reversing starters  40 mm extension,PCS,13.1,48.14,11.49,ELECTRONICS,35
+extension SETS for reversing starters  40 mm extension,PCS,13.1,48.14,11.49,ELECTRONICS,35
 feed-through terminal 250 a  both sides screw M10,PCS,12.7,46.68,11.14,ELECTRONICS,35
 flat terminal  connection of busbar 30 wide with lam,PCS,12.17,44.71,10.67,ELECTRONICS,35
 flat terminal  connection of busbar 35 wide with lam,PCS,13.06,47.98,11.45,ELECTRONICS,35
@@ -694,16 +692,16 @@ holder for cylindrical fuses  10x38 / 2P,PCS,11.85,43.53,10.39,ELECTRONICS,35
 holder for cylindrical fuses  10x38 / 2P,PCS,13.28,48.81,11.65,ELECTRONICS,35
 holder for cylindrical fuses  for semiconductor fuses,PCS,13.07,48.02,11.46,ELECTRONICS,35
 neutral conductor 63 A  socket terminal screw-on / snap-on,PCS,12.52,46.01,10.98,ELECTRONICS,35
-NH fuse 100 A  500 V  gG,PC,13.69,50.32,12.01,ELECTRONICS,35
+NH fuse 100 A  500 V  gG,PCS,13.69,50.32,12.01,ELECTRONICS,35
 NH fuse 160 A  500 V  gG,M,13.69,50.32,12.01,ELECTRONICS,35
 NH fuse 200 A  500 V  gG,PCS,12.45,45.75,10.92,ELECTRONICS,35
-NH fuse 200 A  500 V  gG,PC,13.69,50.32,12.01,ELECTRONICS,35
+NH fuse 200 A  500 V  gG,PCS,13.69,50.32,12.01,ELECTRONICS,35
 NH fuse 224 A  500 V  gG,PCS,12.45,45.75,10.92,ELECTRONICS,35
 NH fuse 224 A  500 V  gG,ROLL,13.69,50.32,12.01,ELECTRONICS,35
 NH fuse 250 A  500 V  gG,PCS,12.45,45.75,10.92,ELECTRONICS,35
-NH fuse 250 A  500 V  gG,PC,13.69,50.32,12.01,ELECTRONICS,35
+NH fuse 250 A  500 V  gG,PCS,13.69,50.32,12.01,ELECTRONICS,35
 PE/N-support  2-pole  indiv,TONS,12.33,45.29,10.81,ELECTRONICS,35
-prism terminal  single  for Cu and Al cables,PC,13.56,49.82,11.89,ELECTRONICS,35
+prism terminal  single  for Cu and Al cables,PCS,13.56,49.82,11.89,ELECTRONICS,35
 prism terminal  single  for Cu and Al cables  35 - 150 mmآ²,PCS,11.74,43.16,10.3,ELECTRONICS,35
 side-mounted module for busbar adapters,SETS,13.1,48.14,11.49,ELECTRONICS,35
 spacer  suitable for 01357,M,13.63,50.07,11.95,ELECTRONICS,35
@@ -711,45 +709,45 @@ terminal clamp for QUADRONآ®185Power,PCS,11.4,41.9,10,ELECTRONICS,35
 trim frame  215 x 330,SETS,12.39,45.55,10.87,ELECTRONICS,35
 trim frame  248 x 330,PCS,12.39,45.55,10.87,ELECTRONICS,35
 universal busbar support  3-pole with internal screw holes,PCS,12.86,47.26,11.28,ELECTRONICS,35
-TPMS Tire Pressure Monitoring Sensors,PC,40,146.8,34.4,ELECTRONIC-SENSOR,35
-Water Treatment Combination pH Sensor for pH Meter,PC,300,1101,258,ELECTRONIC-SENSOR,35
-Car Front Rear Parking Sensor,PC,19,69.73,16.34,ELECTRONIC-SENSOR,35
-Recover Type Position Linear Sensor,PC,120,440.4,103.2,ELECTRONIC-SENSOR,35
-Capacitance Inductive Proximity Sensor Switch Lm480,PC,15,55.05,12.9,ELECTRONIC-SENSOR,35
-Digital Radar Oil Diesel Fuel Tank Level Sensor,PC,850,3119.5,731,ELECTRONIC-SENSOR,35
-Mk03 Seriesreed Sensors,PC,4742,17403.14,4078.12,ELECTRONIC-SENSOR,35
-SF6 Plus O2 Infrared Gas Sensor IR NDIR Leak Alarm,PC,250,917.5,215,ELECTRONIC-SENSOR,35
-2.8V~3.6 V  Ultra-Low Power Pressure Sensor ,PC,85,311.95,73.1,ELECTRONIC-SENSOR,35
-Small Thermostat Kts 011  Control Temperature,PC,4,14.68,3.44,ELECTRONIC-Thermostat,35
-Electronic Touch Screen Thermostat 16A 220V/230V,PC,19,69.73,16.34,ELECTRONIC-Thermostat,35
-Engine Coolant Thermostat Fits 12-18 Sonic 1.8L-L4,PC,16,58.72,13.76,ELECTRONIC-Thermostat,35
-Digital Programmable Controller Room Thermostat,PC,13,47.71,11.18,ELECTRONIC-Thermostat,35
-Refrigerator Thermostat (077B0021),PC,6,22.02,5.16,ELECTRONIC-Thermostat,35
-Water Pump Thermostat Assembly for VW Jetta ,PC,43,157.81,36.98,ELECTRONIC-Thermostat,35
-Thermostat Holder for Isuzu Truck 5-13716009-0 ,PC,150,550.5,129,ELECTRONIC-Thermostat,35
-Thermostat Mirror Surface for Electric Floor Heating,PC,19,69.73,16.34,ELECTRONIC-Thermostat,35
-Non Programmable RF Thermostats LCD Display 220V,PC,24,88.08,20.64,ELECTRONIC-Thermostat,35
-Small Compact Industrial Thermostat (KTO 011),PC,4,14.68,3.44,ELECTRONIC-Thermostat,35
-Water Boiler Heating Thermostat with WiFi,PC,29,106.43,24.94,ELECTRONIC-Thermostat,35
-Three Phase Dry Type Variable Transformer,PC,201,737.67,172.86,ELECTRONIC-Transformer,35
-Box Type Power Transformer Distribution Substation,SET,500,1835,430,ELECTRONIC-Transformer,35
-10/0.4kv Dry Type Transformer,PC,850,3119.5,731,ELECTRONIC-Transformer,35
-Power Transformer/Voltage Regulating Transfomer,PC,26000,95420,22360,ELECTRONIC-Transformer,35
-10kv 30-2500kVA 3 Phase Dry Type Transformer,SET,88000,322960,75680,ELECTRONIC-Transformer,35
-35kv Find Power Distribution Transformer,PC,14000,51380,12040,ELECTRONIC-Transformer,35
-Three-Phase Oil-Immersed Distributing Transformer,PC,16000,58720,13760,ELECTRONIC-Transformer,35
-Transformer 3 Phase Dry Type Power Distribution Transformer,PC,19000,69730,16340,ELECTRONIC-Transformer,35
-Five Wires Stripping Cutting Machine (DNBX-40),PC,3200,11744,2752,ELECT-Wires-Stripping-Cutting,35
-Auto SMT Machine Special for Limitless LED Strip,SET,90000,330300,77400,ELECT-Wires-Stripping-Cutting,35
-Interlock Hose Making Machine,PC,10000,36700,8600,ELECT-Wires-Stripping-Cutting,35
-Paper Cup Stripping Machine,SET,15000,55050,12900,ELECT-Wires-Stripping-Cutting,35
-Wire Terminal Cut Strip Crimp Machine,SET,30000,110100,25800,ELECT-Wires-Stripping-Cutting,35
-Full Stripping Paper Die Cutting Machine,PC,200000,734000,172000,ELECT-Wires-Stripping-Cutting,35
-Dual Purpose Die Cutting Machine with Stripping,PC,90000,330300,77400,ELECT-Wires-Stripping-Cutting,35
-Semi-Automatic Stripping Machine for Paperboard Cutting,PC,3700,13579,3182,ELECT-Wires-Stripping-Cutting,35
-Automatic Wire Stripping Cutting Machine,PC,2800,10276,2408,ELECT-Wires-Stripping-Cutting,35
-Plastic Recycling Packing Strip Making Machine,SET,120000,440400,103200,ELECT-Wires-Stripping-Cutting,35
-Multi Core Cable Stripping Cutting Machine,PC,6000,22020,5160,ELECT-Wires-Stripping-Cutting,35
+TPMS Tire Pressure Monitoring Sensors,PCS,40,146.8,34.4,ELECTRONIC-SENSOR,35
+Water Treatment Combination pH Sensor for pH Meter,PCS,300,1101,258,ELECTRONIC-SENSOR,35
+Car Front Rear Parking Sensor,PCS,19,69.73,16.34,ELECTRONIC-SENSOR,35
+Recover Type Position Linear Sensor,PCS,120,440.4,103.2,ELECTRONIC-SENSOR,35
+Capacitance Inductive Proximity Sensor Switch Lm480,PCS,15,55.05,12.9,ELECTRONIC-SENSOR,35
+Digital Radar Oil Diesel Fuel Tank Level Sensor,PCS,850,3119.5,731,ELECTRONIC-SENSOR,35
+Mk03 Seriesreed Sensors,PCS,4742,17403.14,4078.12,ELECTRONIC-SENSOR,35
+SF6 Plus O2 Infrared Gas Sensor IR NDIR Leak Alarm,PCS,250,917.5,215,ELECTRONIC-SENSOR,35
+2.8V~3.6 V  Ultra-Low Power Pressure Sensor ,PCS,85,311.95,73.1,ELECTRONIC-SENSOR,35
+Small Thermostat Kts 011  Control Temperature,PCS,4,14.68,3.44,ELECTRONIC-Thermostat,35
+Electronic Touch Screen Thermostat 16A 220V/230V,PCS,19,69.73,16.34,ELECTRONIC-Thermostat,35
+Engine Coolant Thermostat Fits 12-18 Sonic 1.8L-L4,PCS,16,58.72,13.76,ELECTRONIC-Thermostat,35
+Digital Programmable Controller Room Thermostat,PCS,13,47.71,11.18,ELECTRONIC-Thermostat,35
+Refrigerator Thermostat (077B0021),PCS,6,22.02,5.16,ELECTRONIC-Thermostat,35
+Water Pump Thermostat Assembly for VW Jetta ,PCS,43,157.81,36.98,ELECTRONIC-Thermostat,35
+Thermostat Holder for Isuzu Truck 5-13716009-0 ,PCS,150,550.5,129,ELECTRONIC-Thermostat,35
+Thermostat Mirror Surface for Electric Floor Heating,PCS,19,69.73,16.34,ELECTRONIC-Thermostat,35
+Non Programmable RF Thermostats LCD Display 220V,PCS,24,88.08,20.64,ELECTRONIC-Thermostat,35
+Small Compact Industrial Thermostat (KTO 011),PCS,4,14.68,3.44,ELECTRONIC-Thermostat,35
+Water Boiler Heating Thermostat with WiFi,PCS,29,106.43,24.94,ELECTRONIC-Thermostat,35
+Three Phase Dry Type Variable Transformer,PCS,201,737.67,172.86,ELECTRONIC-Transformer,35
+Box Type Power Transformer Distribution Substation,SETS,500,1835,430,ELECTRONIC-Transformer,35
+10/0.4kv Dry Type Transformer,PCS,850,3119.5,731,ELECTRONIC-Transformer,35
+Power Transformer/Voltage Regulating Transfomer,PCS,26000,95420,22360,ELECTRONIC-Transformer,35
+10kv 30-2500kVA 3 Phase Dry Type Transformer,SETS,88000,322960,75680,ELECTRONIC-Transformer,35
+35kv Find Power Distribution Transformer,PCS,14000,51380,12040,ELECTRONIC-Transformer,35
+Three-Phase Oil-Immersed Distributing Transformer,PCS,16000,58720,13760,ELECTRONIC-Transformer,35
+Transformer 3 Phase Dry Type Power Distribution Transformer,PCS,19000,69730,16340,ELECTRONIC-Transformer,35
+Five Wires Stripping Cutting Machine (DNBX-40),PCS,3200,11744,2752,ELECT-Wires-Stripping-Cutting,35
+Auto SMT Machine Special for Limitless LED Strip,SETS,90000,330300,77400,ELECT-Wires-Stripping-Cutting,35
+Interlock Hose Making Machine,PCS,10000,36700,8600,ELECT-Wires-Stripping-Cutting,35
+Paper Cup Stripping Machine,SETS,15000,55050,12900,ELECT-Wires-Stripping-Cutting,35
+Wire Terminal Cut Strip Crimp Machine,SETS,30000,110100,25800,ELECT-Wires-Stripping-Cutting,35
+Full Stripping Paper Die Cutting Machine,PCS,200000,734000,172000,ELECT-Wires-Stripping-Cutting,35
+Dual Purpose Die Cutting Machine with Stripping,PCS,90000,330300,77400,ELECT-Wires-Stripping-Cutting,35
+Semi-Automatic Stripping Machine for Paperboard Cutting,PCS,3700,13579,3182,ELECT-Wires-Stripping-Cutting,35
+Automatic Wire Stripping Cutting Machine,PCS,2800,10276,2408,ELECT-Wires-Stripping-Cutting,35
+Plastic Recycling Packing Strip Making Machine,SETS,120000,440400,103200,ELECT-Wires-Stripping-Cutting,35
+Multi Core Cable Stripping Cutting Machine,PCS,6000,22020,5160,ELECT-Wires-Stripping-Cutting,35
 1.6 Ton Small Farm Machinery with Ce,PCS,12000,44040,10320,FARM MACHINERY,27
 Agriculture Silage Baler Machine,PCS,29000,106430,24940,FARM MACHINERY,27
 20-50HP Tractor Used Farm Potato Planter Machine (LF-PT32),SETS,500,1835,430,FARM MACHINERY,27
@@ -913,20 +911,20 @@ Krei Hejmo Solid Wood Coffee Tea Sofa Side Table,PCS,90,330.3,77.4,FURNITURE,9
 Genuine Leather Aluminium Office Manager Chair,PCS,95,348.65,81.7,FURNITURE,9
 Brushed Brass Color 1-Drawer End Table,PCS,98,359.66,84.28,FURNITURE,9
 eHemco Euro Console Sofa Table,PCS,100,367,86,FURNITURE,9
-Leisure Aluminum Restaurant Set Table,PCS,100,367,86,FURNITURE,9
+Leisure Aluminum Restaurant SETS Table,PCS,100,367,86,FURNITURE,9
 Rechargeable Color Changing LED Furniture for Bar,PCS,100,367,86,FURNITURE,9
 Furniture Hotel Soild Wood Bedroom Furniture,PCS,110,403.7,94.6,FURNITURE,9
 Glass Console Sofa Table,PCS,115,422.05,98.9,FURNITURE,9
 Mirrored Cabinet Armoire Espresso,SETS,115,422.05,98.9,FURNITURE,9
 White Color Solid Pine Bunk Bedآ ,PCS,115,422.05,98.9,FURNITURE,9
 Wooden Chairs Hotelآ Furniture,PCS,120,440.4,103.2,FURNITURE,9
-Exclusive European Office CEO Table Set ,PCS,121,444.07,104.06,FURNITURE,9
+Exclusive European Office CEO Table SETS ,PCS,121,444.07,104.06,FURNITURE,9
 Beach Chair Sun Lounger Armless Outdoor Patio,PCS,125,458.75,107.5,FURNITURE,9
 Beach Chair Sun Lounger Armless Patio,PCS,125,458.75,107.5,FURNITURE,9
 Sun Lounger Armless Outdoor Patio,PCS,125,458.75,107.5,FURNITURE,9
 Cheap Beauty Salon Furniture in Hot Sale,PCS,128,469.76,110.08,FURNITURE,9
 Poolside Sun Lounger Outdoor Patio Furniture,PCS,129,473.43,110.94,FURNITURE,9
-Homall 4 Pieces Outdoor Patio Furniture Sets,SETS,129.99,477.06,111.79,FURNITURE,9
+Homall 4 Pieces Outdoor Patio Furniture SETS,SETS,129.99,477.06,111.79,FURNITURE,9
 Recci 3in Memory Foam Mattress Topper Queen,SETS,129.99,477.06,111.79,FURNITURE,9
 Coffee Table with Nature Marble Top,PCS,130,477.1,111.8,FURNITURE,9
 SUNCOO Nesting Coffee Table MDF White,PCS,140,513.8,120.4,FURNITURE,9
@@ -944,7 +942,7 @@ Aluminum Alloy School Classroom Furniture,PCS,200,734,172,FURNITURE,9
 Kd Oak Tableآ for Dining Room,PCS,200,734,172,FURNITURE,9
 All Aluminum Waterproof Kitchenآ Furniture,MS,210,770.7,180.6,FURNITURE,9
 Aluminum Bathroom Furniture with Single Basin,PCS,210,770.7,180.6,FURNITURE,9
-Leaptime Sofa Outdoor Rattan Couch Conversation Set,SETS,219.99,807.36,189.19,FURNITURE,9
+Leaptime Sofa Outdoor Rattan Couch Conversation SETS,SETS,219.99,807.36,189.19,FURNITURE,9
 Melamine Office Manager Table (HF-BSA04),PCS,220,807.4,189.2,FURNITURE,9
 Black Oak Boss Table آ (HF-SID001),SETS,230,844.1,197.8,FURNITURE,9
 Steel Dining Chair Banquet Chair and Table,SETS,230,844.1,197.8,FURNITURE,9
@@ -952,16 +950,16 @@ L Shape Executive Table Wooden Office (CAS-M1773),PCS,238,873.46,204.68,FURNITUR
 Customzied Anti-Corrosion Steel Labآ Furniture,MS,240,880.8,206.4,FURNITURE,9
 LED Lights Electric Flame Fireplace (A-804),PCS,250,917.5,215,FURNITURE,9
 Computer Table Desk Workstation (HX-8NE015),PCS,258,946.86,221.88,FURNITURE,9
-Wooden Double Bed Furniture Set Oak,PCS,259,950.53,222.74,FURNITURE,9
+Wooden Double Bed Furniture SETS Oak,PCS,259,950.53,222.74,FURNITURE,9
 Black Oak Wooden Executive Boss Table (HF-SID001),PCS,260,954.2,223.6,FURNITURE,9
 Hot Sale PE Rattan Wicker Chair Outdoor Furniture,SETS,260,954.2,223.6,FURNITURE,9
 Chinese Home Office Wooden Table,PCS,263,965.21,226.18,FURNITURE,9
-Metal Dining Set Aluminum Embossing Furniture,PCS,283,1038.61,243.38,FURNITURE,9
+Metal Dining SETS Aluminum Embossing Furniture,PCS,283,1038.61,243.38,FURNITURE,9
 L Shape Manager Director Office Desk Furniture,PCS,288,1056.96,247.68,FURNITURE,9
 Melamine Meeting Conference Boardroom Table,SETS,290,1064.3,249.4,FURNITURE,9
 Aluminum Polywood Dining Furniture (MFPW-18107S),PCS,299,1097.33,257.14,FURNITURE,9
-Outdoor Fabric Lounge Sofa Set Garden Furniture,SETS,299,1097.33,257.14,FURNITURE,9
-PHI VILLA 4-Piece Conversation Set Weather Cushioned,SETS,299.99,1100.96,257.99,FURNITURE,9
+Outdoor Fabric Lounge Sofa SETS Garden Furniture,SETS,299,1097.33,257.14,FURNITURE,9
+PHI VILLA 4-Piece Conversation SETS Weather Cushioned,SETS,299.99,1100.96,257.99,FURNITURE,9
 4-PCS Garden Leisure Hotel Patio,PCS,300,1101,258,FURNITURE,9
 Coffee Table Rotating Contemporary Square,PCS,300,1101,258,FURNITURE,9
 Mobile Shelving Electronic Digital Cabinet,PCS,300,1101,258,FURNITURE,9
@@ -976,46 +974,46 @@ Wicker Leisure Outdoor Garden Sofa,SETS,350,1284.5,301,FURNITURE,9
 Lb8816 Bed Homeآ Furniture,PCS,380,1394.6,326.8,FURNITURE,9
 PHI VILLA 3 Piece New Outdoor Sectional Sofa,SETS,398.99,1464.29,343.13,FURNITURE,9
 Best Price MFC Workstation with Hollow Division,PCS,400,1468,344,FURNITURE,9
-Hot Selling 4 PCS Wicker Sofa Set Patio,SETS,400,1468,344,FURNITURE,9
+Hot Selling 4 PCS Wicker Sofa SETS Patio,SETS,400,1468,344,FURNITURE,9
 Office Workstation with Partition Screen,SETS,400,1468,344,FURNITURE,9
-Dining Table and Chair Set Furniture,PCS,400,1468,344,FURNITURE,9
+Dining Table and Chair SETS Furniture,PCS,400,1468,344,FURNITURE,9
 Patio Aluminum Table SETS ,PCS,400,1468,344,FURNITURE,9
 Aluminum Plastic Wood Dining Table SETS Patio,PCS,420,1541.4,361.2,FURNITURE,9
-Outdoor Furniture Dining Sets Rattan and Glass,PCS,420,1541.4,361.2,FURNITURE,9
-Garden Rattan Dining Set 6 Chairs ,PCS,430,1578.1,369.8,FURNITURE,9
+Outdoor Furniture Dining SETS Rattan and Glass,PCS,420,1541.4,361.2,FURNITURE,9
+Garden Rattan Dining SETS 6 Chairs ,PCS,430,1578.1,369.8,FURNITURE,9
 Gloss Lacquered Bedroom Furniture (HF-MN012),SETS,430,1578.1,369.8,FURNITURE,9
 Modern Garden Patio Leisure Lounge Rattan Outdoor,PCS,430,1578.1,369.8,FURNITURE,9
 Patio Dining Outdoor Leisure Table,PCS,453,1662.51,389.58,FURNITURE,9
 Banquette Dining Room Furniture Made in China,SETS,490,1798.3,421.4,FURNITURE,9
-7PCS Patio Outdoor Backyard Dining Set Furniture,PCS,498,1827.66,428.28,FURNITURE,9
+7PCS Patio Outdoor Backyard Dining SETS Furniture,PCS,498,1827.66,428.28,FURNITURE,9
 7PCS Patio Outdoor Backyard Dining SETS,SETS,498,1827.66,428.28,FURNITURE,9
 Patio Garden Leisure Aluminum Deep-Seat Cushion,PCS,499,1831.33,429.14,FURNITURE,9
 Wooden Mirror Dresser Cabinet (SM-D34),PCS,500,1835,430,FURNITURE,9
 Gardenآ Cast Aluminumآ Outdoor Furniture,SETS,500,1835,430,FURNITURE,9
-outdoor Furniture Rattan Dining Sets,PCS,500,1835,430,FURNITURE,9
+outdoor Furniture Rattan Dining SETS,PCS,500,1835,430,FURNITURE,9
 Patio Rattan Wicker Leisure  Dining Sofa SETS ,SETS,500,1835,430,FURNITURE,9
 Solid Wood Rectangular Ext. Table Dining Room,SETS,500,1835,430,FURNITURE,9
 Modern Wooden Dining Room Table,PCS,510,1871.7,438.6,FURNITURE,9
 Flexible and Foldable Parasol Solar Charger Outdoor,SETS,555,2036.85,477.3,FURNITURE,9
-Garden Patio Plastic Wood Dining Set Polywood,SETS,560,2055.2,481.6,FURNITURE,9
-Outdoor Leisure and Teak Wooden Sofa Sets,SETS,560,2055.2,481.6,FURNITURE,9
+Garden Patio Plastic Wood Dining SETS Polywood,SETS,560,2055.2,481.6,FURNITURE,9
+Outdoor Leisure and Teak Wooden Sofa SETS,SETS,560,2055.2,481.6,FURNITURE,9
 Patio Rattan Wickerآ Furnitureآ Resin Outdoor Sofa,PCS,570,2091.9,490.2,FURNITURE,9
 Textilene Rope Garden Hanging Swing Patio,SETS,580,2128.6,498.8,FURNITURE,9
 Patio Rattan Wicker Furniture Resin Sofa,PCS,590,2165.3,507.4,FURNITURE,9
-Bar Set Wicker Weaving Resin Patio Furniture,SETS,598,2194.66,514.28,FURNITURE,9
+Bar SETS Wicker Weaving Resin Patio Furniture,SETS,598,2194.66,514.28,FURNITURE,9
 Foshan Walden New Outdoor Garden Furniture,PCS,599,2198.33,515.14,FURNITURE,9
 Modern Garden Outdoor Sofa Furniture,SETS,599,2198.33,515.14,FURNITURE,9
 All Steel Labآ Furnitureآ with Ce Certificate,PCS,600,2202,516,FURNITURE,9
 Functional Garden SETS Stretch Dining Table,PCS,650,2385.5,559,FURNITURE,9
 Outdoor Dining Tables Garden Furniture Patio,PCS,660,2422.2,567.6,FURNITURE,9
-7 Pieces Set Rattan Outdoor Furniture,SETS,680,2495.6,584.8,FURNITURE,9
+7 Pieces SETS Rattan Outdoor Furniture,SETS,680,2495.6,584.8,FURNITURE,9
 Italian Genuine Leather Modern Sofa Furniture,PCS,685,2513.95,589.1,FURNITURE,9
-Functional Garden Set Stretch Dining Table,PCS,700,2569,602,FURNITURE,9
+Functional Garden SETS Stretch Dining Table,PCS,700,2569,602,FURNITURE,9
 Gray U Shape Corner Fabric Sofa,PCS,700,2569,602,FURNITURE,9
 Metalآ Furnitureآ for Home and Garden,SETS,700,2569,602,FURNITURE,9
-Cast Aluminum Rattan Table and Chair Set Patio,PCS,700,2569,602,FURNITURE,9
+Cast Aluminum Rattan Table and Chair SETS Patio,PCS,700,2569,602,FURNITURE,9
 Elegant Gray U Shape Corner Fabric Sofa,PCS,723,2653.41,621.78,FURNITURE,9
-Wicker Outdoor Sofa Set Resin Wicker Sofa,SETS,729,2675.43,626.94,FURNITURE,9
+Wicker Outdoor Sofa SETS Resin Wicker Sofa,SETS,729,2675.43,626.94,FURNITURE,9
 Home Sofa Leather Modern Sofa 1081#,SETS,750,2752.5,645,FURNITURE,9
 American Oak Home Bedroom SETS,SETS,782,2869.94,672.52,FURNITURE,9
 Anti-Doping Bench Lab Furniture with Reagent Shelf,PCS,800,2936,688,FURNITURE,9
@@ -1027,7 +1025,7 @@ University Lab Furniture Price with High Quality,PCS,800,2936,688,FURNITURE,9
 New Classical Wooden Bed / Hotel Bedroom Furniture,PCS,805,2954.35,692.3,FURNITURE,9
 Chemical Resistant Steel Labآ Furniture,PCS,825,3027.75,709.5,FURNITURE,9
 White Textilene Outdoor Daybed in Tent with Rattan Base Wicker,PCS,850,3119.5,731,FURNITURE,9
-PHI VILLA 9 Piece Outdoor Furniture Sectional Patio Dining Setآ ,SETS,869,3189.23,747.34,FURNITURE,9
+PHI VILLA 9 Piece Outdoor Furniture Sectional Patio Dining SETSآ ,SETS,869,3189.23,747.34,FURNITURE,9
 Charcoal Full Bookcase Captain Bed with 12 Drawer Storage,SETS,879,3225.93,755.94,FURNITURE,9
 Bathroom Basin Accessories Cabinet Bathroom,PCS,900,3303,774,FURNITURE,9
 New Design Patio Leisure Sofa Outdoor Furniture,SETS,900,3303,774,FURNITURE,9
@@ -1043,17 +1041,17 @@ Walnut Hampton Hotel Bedroom,PCS,1266,4646.22,1088.76,FURNITURE,9
 Economic Design Oak Bedroom Furniture,SETS,1299,4767.33,1117.14,FURNITURE,9
 Salon Chair for Beauty Salon Equipment,PCS,1300,4771,1118,FURNITURE,9
 Plywood Cover with Wood Veneer Hotel Bedroom,SETS,1350,4954.5,1161,FURNITURE,9
-Aluminum Alloy L Shape Sofa Set,SETS,1365,5009.55,1173.9,FURNITURE,9
+Aluminum Alloy L Shape Sofa SETS,SETS,1365,5009.55,1173.9,FURNITURE,9
 Designer Leather Sofa Furniture,SETS,1368,5020.56,1176.48,FURNITURE,9
 Deluxe Presidential Hotel Bedroomآ Furnitureآ SETS,SETS,1380,5064.6,1186.8,FURNITURE,9
-Garden and Patio Aluminum Dining Set,PCS,1399,5134.33,1203.14,FURNITURE,9
-Modern Home Italian Leather Sofa Set,SETS,1550,5688.5,1333,FURNITURE,9
+Garden and Patio Aluminum Dining SETS,PCS,1399,5134.33,1203.14,FURNITURE,9
+Modern Home Italian Leather Sofa SETS,SETS,1550,5688.5,1333,FURNITURE,9
 King Size Luxury Chinese Wooden Bedroom Furniture,SETS,1650,6055.5,1419,FURNITURE,9
 Custom Modern Design Plywood Cover with Wood Veneer,PCS,1699,6235.33,1461.14,FURNITURE,9
-Patio Aluminum Garden Fire Pit Dining Set,SETS,1699,6235.33,1461.14,FURNITURE,9
+Patio Aluminum Garden Fire Pit Dining SETS,SETS,1699,6235.33,1461.14,FURNITURE,9
 Leisure Waterproof Modern Uphostery Fabric Sofa SETS,PCS,1700,6239,1462,FURNITURE,9
 Double Hospitality Guest Hotel Bedroomآ Furniture,SETS,1760,6459.2,1513.6,FURNITURE,9
-Hotel Bed Room Furniture Set (HD626),PCS,1799,6602.33,1547.14,FURNITURE,9
+Hotel Bed Room Furniture SETS (HD626),PCS,1799,6602.33,1547.14,FURNITURE,9
 High Quality Lab Furniture (JH-SL001),SETS,1800,6606,1548,FURNITURE,9
 Modern High Gloss PVC Lacquer Kitchen Furniture,PCS,1899,6969.33,1633.14,FURNITURE,9
 4 Star King Size Beige Customized Hotelآ Furniture,SETS,1999,7336.33,1719.14,FURNITURE,9
@@ -1066,7 +1064,7 @@ Apartment Guest Room Furniture,SETS,2980,10936.6,2562.8,FURNITURE,9
 Chinese Wooden Hotel Bedroom Furniture,SETS,2980,10936.6,2562.8,FURNITURE,9
 Wood Modern Hospitality Hotel Bedroom,PCS,3000,11010,2580,FURNITURE,9
 Solid Wood Kitchen Cabinetsآ Furniture,SETS,3250,11927.5,2795,FURNITURE,9
-Hotel Furniture for Bedroom Set (YB-809),PCS,3500,12845,3010,FURNITURE,9
+Hotel Furniture for Bedroom SETS (YB-809),PCS,3500,12845,3010,FURNITURE,9
 MDF Paint White Lacquer Wood Kitchen Cabinets,SETS,4000,14680,3440,FURNITURE,9
 Custom Design Solid Wood/MDF Kitchen Cabinets,PCS,5000,18350,4300,FURNITURE,9
 Modern Design Lacquer Series Kitchen (BR-L003),SETS,5238,19223.46,4504.68,FURNITURE,9
@@ -1139,11 +1137,11 @@ Foldable Dress Clothes Suit Protector Garmentآ Bag,PCS,4.5,16.52,3.87,GARMENT 
 Fashion Designآ Garmentآ Customآ Bags,PCS,13,47.71,11.18,GARMENT BAG,2
 Non-Woven Black Suitآ Garmentآ Bagsآ (ST60WB),PCS,1.15,4.22,0.99,GARMENT BAG,2
 Protectiveآ Garment Bag,PCS,1.5,5.51,1.29,GARMENT BAG,2
-PVC Glazed Roof Tile Extrusion Machine,PC,50000,183500,42205,GENERAL MACHINERY,27
-Cement Hollow Brick Machine,PC,50000,183500,42205,GENERAL MACHINERY,27
-Qt4-18 Hollow Solid Paving Concrete Brick Block Machine,PC,12000,183500,42205,GENERAL MACHINERY,27
-CZ Channel Steel Framing Making Machine,PC,55000,44040,10129.2,GENERAL MACHINERY,27
-Automatic AAC Block Making Machine with CE Approved,PC,500000,1835000,46425.5,GENERAL MACHINERY,27
+PVC Glazed Roof Tile Extrusion Machine,PCS,50000,183500,42205,GENERAL MACHINERY,27
+Cement Hollow Brick Machine,PCS,50000,183500,42205,GENERAL MACHINERY,27
+Qt4-18 Hollow Solid Paving Concrete Brick Block Machine,PCS,12000,183500,42205,GENERAL MACHINERY,27
+CZ Channel Steel Framing Making Machine,PCS,55000,44040,10129.2,GENERAL MACHINERY,27
+Automatic AAC Block Making Machine with CE Approved,PCS,500000,1835000,46425.5,GENERAL MACHINERY,27
 Wood Veneer Glue for Veneer Sticking/Laminating,TONS,1000,3670,860,GLUE,24
 Two-Component Primer for TPR Material 794K1+B,Barrel,32.4,118.91,27.86,GLUE,24
 Shoe Making Rubber Primer Double Component 001ga+B,Barrel,35,128.45,30.1,GLUE,24
@@ -1526,7 +1524,7 @@ Exercise Bike for Arm Leg Rehabilitation,PCS,2200,8074,1892,MEDICAL,13
 Gait Training System for Rehabilitation,PCS,1000,3670,860,MEDICAL,13
 Lightweight Sport Wheelchair for Basketball,PCS,411.6,1510.57,353.98,MEDICAL,13
 Neonate Baby Care Infant Incubator,PCS,3000,11010,2580,MEDICAL,13
-Disposable IV Transfusion Infusion Set with Luer Lock,PCS,0.1,0.37,0.09,MEDICAL,13
+Disposable IV Transfusion Infusion SETS with Luer Lock,PCS,0.1,0.37,0.09,MEDICAL,13
 Disposableآ Medical Gauze Swab,BAG,0.8,2.94,0.69,MEDICAL,13
 Surgical Power Tools Oscillating Sagittal Saw,PCS,1400,5138,1204,MEDICAL,13
 Pets Cremation Incinerator (WFS),SETS,5000,18350,4300,MEDICAL,13
@@ -1693,19 +1691,19 @@ Precisionآ Medicalآ Equipmentsآ Spareآ CNC Machiningآ Parts,PCS,10,36.
 Prototypeآ Medicalآ Equipment,PCS,16,58.72,13.76,MEDICAL-SPARE PARTS (2),13
 Spareآ Metal Aluminum CNC Machining Part,PCS,100,367,86,MEDICAL-SPARE PARTS (2),13
 Spareآ Partsآ of Hospital Bedآ Medical Side Rails,PCS,180,660.6,154.8,MEDICAL-SPARE PARTS (2),13
-ABS Mold Rapid Prototyping Services,PC,25,91.75,21.1,METALIC MACHINERY,27
-Flexible Strip Wound Hose,PC,10000,91.75,21.1,METALIC MACHINERY,27
-Tungsten Carbide Steel Parts,PC,199,36700,8441,METALIC MACHINERY,27
-CNC Hydraulic Steel Bending Machine,SET,5500,730.33,167.98,METALIC MACHINERY,27
-OEM Stainless Steel CNC Machining Part,KG,8,20185,4642.55,METALIC MACHINERY,27
-CNC Machining Parts,PC,4,29.36,6.75,METALIC MACHINERY,27
-Automatic Two RAM Baler for Plastic (APB-250T),PC,16200,14.68,3.38,METALIC MACHINERY,27
-Aluminium Copper Slitting Machine,SET,400000,59454,13674.42,METALIC MACHINERY,27
-Mc-425CNC Fully Automatic Pipe Cutting Machine,PC,7500,1468000,337640,METALIC MACHINERY,27
-Steel Wire Rope Hydraulic Swager 6-34mm Rope,PC,40000,27525,6330.75,METALIC MACHINERY,27
-Stationary High Speed Pipe End Beveling Machine,PC,100000,146800,33764,METALIC MACHINERY,27
-Thread Rolling Twisting Machine,SET,5000,367000,84410,METALIC MACHINERY,27
-Fixed Platen for Die Casting and Injection Molding Machines,PC,12000,18350,4220.5,METALIC MACHINERY,27
+ABS Mold Rapid Prototyping Services,PCS,25,91.75,21.1,METALIC MACHINERY,27
+Flexible Strip Wound Hose,PCS,10000,91.75,21.1,METALIC MACHINERY,27
+Tungsten Carbide Steel Parts,PCS,199,36700,8441,METALIC MACHINERY,27
+CNC Hydraulic Steel Bending Machine,SETS,5500,730.33,167.98,METALIC MACHINERY,27
+OEM Stainless Steel CNC Machining Part,KGS,8,20185,4642.55,METALIC MACHINERY,27
+CNC Machining Parts,PCS,4,29.36,6.75,METALIC MACHINERY,27
+Automatic Two RAM Baler for Plastic (APB-250T),PCS,16200,14.68,3.38,METALIC MACHINERY,27
+Aluminium Copper Slitting Machine,SETS,400000,59454,13674.42,METALIC MACHINERY,27
+Mc-425CNC Fully Automatic Pipe Cutting Machine,PCS,7500,1468000,337640,METALIC MACHINERY,27
+Steel Wire Rope Hydraulic Swager 6-34mm Rope,PCS,40000,27525,6330.75,METALIC MACHINERY,27
+Stationary High Speed Pipe End Beveling Machine,PCS,100000,146800,33764,METALIC MACHINERY,27
+Thread Rolling Twisting Machine,SETS,5000,367000,84410,METALIC MACHINERY,27
+Fixed Platen for Die Casting and Injection Molding Machines,PCS,12000,18350,4220.5,METALIC MACHINERY,27
 "Dingchen High Quality Pulp Bleacher in Paper Making Industry
 ",PCS,5000,18350,4300,PAPER,56
 60X60cm Qualitative Filter Paper for Industry with Low Prices,PCS,180,660.6,154.8,PAPER,56
@@ -1805,7 +1803,7 @@ CAD Paper,TONS,1800,6606,1548,PAPER,56
 17GSM Mf Color Tissue Paper for Packing,TONS,2339,8584.13,2011.54,PAPER,56
 Bamboo Pulp Soft Facial Tissue Paper,TONS,1790,6569.3,1539.4,PAPER,56
 Medical Aluminum Foil Paper for Alcohol Prep Pad,TONS,3900,14313,3354,PAPER,56
-55GSM-120GSM Uncoated/Bond /Woodfree Offset Paper with Longfeng Mill Price,TONS,920,3376.4,791.2,PAPER,56
+55GSM-120GSM Uncoated/Bond /Woodfree OffSETS Paper with Longfeng Mill Price,TONS,920,3376.4,791.2,PAPER,56
 Aluminum Foil Coated Paper for Medical Packaging,TONS,3000,11010,2580,PAPER,56
 Carbonless Copy Paper for Bank Usage,TONS,1450,5321.5,1247,PAPER,56
 Fin Tube Heat Exchanger for Cooling and Heating,PCS,25000,91750,21500,PETRO CHEMICALS,46
@@ -1839,21 +1837,21 @@ Chemical Process Device Centrifugal Pump,PCS,7500,27525,6450,PETRO CHEMICALS,46
 SA213 Carbon Seamless Steel Pipe,TONS,1000,3670,860,PETRO CHEMICALS,46
 Activated Alumina for Air Compressor,TONS,1050,3853.5,903,PETRO CHEMICALS,46
 Food Grade Oil Transfer Diaphragm Pump,PCS,650,2385.5,559,PETRO CHEMICALS,46
-Sewage & Irrigation Pipe& Electric Conduit Pipe,SET,94000,344980,79345.4,PLASTIC MACHINE,27
-Waste Plastic Recycling Machine,SET,600000,344980,79345.4,PLASTIC MACHINE,27
-PVC Water Supply Pipe Making Machine,SET,50000,2202000,506460,PLASTIC MACHINE,27
-Water Irrigation Electric Corrugated Pipe,PC,80000,183500,42205,PLASTIC MACHINE,27
-Plastic Bottle Maker Machine (ZQ-B600-6 with CE),PC,116000,293600,67528,PLASTIC MACHINE,27
-Bottle Blowing Mould Making Machine,PC,89500,425720,97915.6,PLASTIC MACHINE,27
-Food Container Plate Thermoforming Machine,PC,85000,328465,75546.95,PLASTIC MACHINE,27
-Plastic PE Pipe Making Machine/Extrusion Line,PC,80000,311950,71748.5,PLASTIC MACHINE,27
-WPC Flooring Board Extruder Machine,SET,150000,293600,67528,PLASTIC MACHINE,27
-Automatic PE  PP Washing Line,PC,300000,550500,126615,PLASTIC MACHINE,27
-PVC Spiral Reinforced Suction Hose Pipe Extruder,SET,28000,1101000,253230,PLASTIC MACHINE,27
-Crushing Washing Recycling Machine,PC,80000,102760,23634.8,PLASTIC MACHINE,27
-Pet Drinking Beverage Water Bottle Plastic,PC,15000,293600,67528,PLASTIC MACHINE,27
-Waste Plastic Machine,SET,200000,55050,12661.5,PLASTIC MACHINE,27
-Full-Auto Plastic Products Blow Molding Machine,PC,69000,734000,168820,PLASTIC MACHINE,27
+Sewage & Irrigation Pipe& Electric Conduit Pipe,SETS,94000,344980,79345.4,PLASTIC MACHINE,27
+Waste Plastic Recycling Machine,SETS,600000,344980,79345.4,PLASTIC MACHINE,27
+PVC Water Supply Pipe Making Machine,SETS,50000,2202000,506460,PLASTIC MACHINE,27
+Water Irrigation Electric Corrugated Pipe,PCS,80000,183500,42205,PLASTIC MACHINE,27
+Plastic Bottle Maker Machine (ZQ-B600-6 with CE),PCS,116000,293600,67528,PLASTIC MACHINE,27
+Bottle Blowing Mould Making Machine,PCS,89500,425720,97915.6,PLASTIC MACHINE,27
+Food Container Plate Thermoforming Machine,PCS,85000,328465,75546.95,PLASTIC MACHINE,27
+Plastic PE Pipe Making Machine/Extrusion Line,PCS,80000,311950,71748.5,PLASTIC MACHINE,27
+WPC Flooring Board Extruder Machine,SETS,150000,293600,67528,PLASTIC MACHINE,27
+Automatic PE  PP Washing Line,PCS,300000,550500,126615,PLASTIC MACHINE,27
+PVC Spiral Reinforced Suction Hose Pipe Extruder,SETS,28000,1101000,253230,PLASTIC MACHINE,27
+Crushing Washing Recycling Machine,PCS,80000,102760,23634.8,PLASTIC MACHINE,27
+Pet Drinking Beverage Water Bottle Plastic,PCS,15000,293600,67528,PLASTIC MACHINE,27
+Waste Plastic Machine,SETS,200000,55050,12661.5,PLASTIC MACHINE,27
+Full-Auto Plastic Products Blow Molding Machine,PCS,69000,734000,168820,PLASTIC MACHINE,27
 Customآ Plasticآ Toolآ Box,PCS,2.8,10.28,2.41,PLASTIC-BOX,7
 Twinwallآ Plasticآ Boxآ Corrugated PP Boardآ Box with Lid,PCS,2,7.34,1.72,PLASTIC-BOX,7
 Food Gradeآ Plasticآ Containingآ Box PP,PCS,8,29.36,6.88,PLASTIC-BOX,7
@@ -2113,17 +2111,17 @@ Hot Sale Peltier Refrigerator Peltier 48V,PCS,341.5,1253.31,293.69,Refrigerator,
 12V/24V DC Solar Power Freezer Refrigerator 118L,PCS,257,943.19,221.02,Refrigerator,57
 Blood Bank Refrigerator-Laboratory Freezer-Pharmacy Refrigerator,PCS,1075,3945.25,924.5,Refrigerator,57
 High Quality Beer Refrigerator (Beer Dispenser) with Keg,SETS,800,2936,688,Refrigerator,57
-Two Roll Mixing Mill Machine 22inch ,SET,10000,36700,8441,RUBBER MACHINERY,27
-Reclaim Rubber Machine,SET,45000,36700,8441,RUBBER MACHINERY,27
-Rubber Open Mixing Mill with BV ISO SGS,PC,100000,165150,37984.5,RUBBER MACHINERY,27
-Rubber Vulcanizer Press Machine,SET,20000,367000,84410,RUBBER MACHINERY,27
-Fully Automatic Waste Tire Recycle Machine,SET,45000,73400,16882,RUBBER MACHINERY,27
-Hydraulic BOM Mc Bc Motorcycle Bladder Tyre,PC,50000,165150,37984.5,RUBBER MACHINERY,27
-Conveyor Belt Rubber Machine-Hydraulic Press,SET,350000,183500,42205,RUBBER MACHINERY,27
-Rubber Mixing Mill,SET,50000,1284500,295435,RUBBER MACHINERY,27
-Rubber Hydraulic Vulcanizing Press Machine,PC,16500,183500,42205,RUBBER MACHINERY,27
-Automatic Tire Shredder Machine,SET,35000,60555,13927.65,RUBBER MACHINERY,27
-Motorcycle Tyre Building Machine,PC,20000,128450,29543.5,RUBBER MACHINERY,27
+Two Roll Mixing Mill Machine 22inch ,SETS,10000,36700,8441,RUBBER MACHINERY,27
+Reclaim Rubber Machine,SETS,45000,36700,8441,RUBBER MACHINERY,27
+Rubber Open Mixing Mill with BV ISO SGS,PCS,100000,165150,37984.5,RUBBER MACHINERY,27
+Rubber Vulcanizer Press Machine,SETS,20000,367000,84410,RUBBER MACHINERY,27
+Fully Automatic Waste Tire Recycle Machine,SETS,45000,73400,16882,RUBBER MACHINERY,27
+Hydraulic BOM Mc Bc Motorcycle Bladder Tyre,PCS,50000,165150,37984.5,RUBBER MACHINERY,27
+Conveyor Belt Rubber Machine-Hydraulic Press,SETS,350000,183500,42205,RUBBER MACHINERY,27
+Rubber Mixing Mill,SETS,50000,1284500,295435,RUBBER MACHINERY,27
+Rubber Hydraulic Vulcanizing Press Machine,PCS,16500,183500,42205,RUBBER MACHINERY,27
+Automatic Tire Shredder Machine,SETS,35000,60555,13927.65,RUBBER MACHINERY,27
+Motorcycle Tyre Building Machine,PCS,20000,128450,29543.5,RUBBER MACHINERY,27
 1000W/200ah/220V AC Renewableآ Solarآ Panel Home Lighting Power/Energyآ System,PCS,425,1559.75,365.5,SOLAR ENERGY SYSTEM (2),8
 10kw Home Use on Gridآ Solarآ PV Panelآ Energy Powerآ System,SETS,10000,36700,8600,SOLAR ENERGY SYSTEM (2),8
 10Wآ Solarآ Systemآ Lightsآ Solarآ Home Light Solarآ Energyآ Systemآ Home,SETS,49,179.83,42.14,SOLAR ENERGY SYSTEM (2),8
@@ -2214,9 +2212,9 @@ Stylishآ Solarآ Energyآ Mountingآ Systemآ (K05),SETS,100,367,86,SOLAR 
 Sun Powerآ Solarآ Systemآ Kit off Gridآ Solarآ Energy 6kw Home Powerآ Systemآ with MPPT ContROLLSer,PCS,491,1801.97,422.26,SOLAR ENERGY SYSTEM (2),8
 Sunlightآ Energyآ Independent Grid AC Power 20W LEDآ Solarآ System,PCS,68,249.56,58.48,SOLAR ENERGY SYSTEM (2),8
 Luggage compartment/cargo tray,PCS,33.34,122.36,28.67,SPARE CAR,26
-A.B.S. Brake Pad Set  disc brake,PCS,9.8,35.97,8.53,SPARE CAR,26
-LPR Brake Pad Set  disc brake,PCS,10.95,40.19,9.53,SPARE CAR,26
-BREMBO Brake Pad Set  disc brake,PCS,15.95,58.54,13.88,SPARE CAR,26
+A.B.S. Brake Pad SETS  disc brake,PCS,9.8,35.97,8.53,SPARE CAR,26
+LPR Brake Pad SETS  disc brake,PCS,10.95,40.19,9.53,SPARE CAR,26
+BREMBO Brake Pad SETS  disc brake,PCS,15.95,58.54,13.88,SPARE CAR,26
 YATO Hot Air Blower,PCS,19.5,71.57,16.97,SPARE CAR,26
 HAZET Hot Air Blower,PCS,95,348.65,82.65,SPARE CAR,26
 KS TOOLS Hot Air Dryer,PCS,55,201.85,47.85,SPARE CAR,26
@@ -2227,102 +2225,102 @@ Compressor-8FK 351 135-811,PCS,286,1049.62,248.82,SPARE CAR,26
 Original VAICO Quality  Tensioner  Cogged V-Belt,PCS,52,190.84,45.24,SPARE CAR,26
 Original VAICO   Pulley  V-Ribbed Belt Guidance/Deflection,PCS,43,157.81,37.41,SPARE CAR,26
 Damper  Driver Cab Suspension,PCS,46,168.82,40.02,SPARE CAR,26
-Vertical Milling CNC Machine Spear Parts,PC,10,36.7,8.6,SPARE PARTS,25
-Bear of Truck Spear Part,PC,16,58.72,13.76,SPARE PARTS,25
-Casting Parts with Spear Heads/Iron Flowers,PC,1,3.67,0.86,SPARE PARTS,25
-68h Contra Angle Dental Handpiece,PC,50,183.5,43,SPARE PARTS,25
-Copper Casting Machine Spear Part,PC,10,36.7,8.6,SPARE PARTS,25
+Vertical Milling CNC Machine Spear Parts,PCS,10,36.7,8.6,SPARE PARTS,25
+Bear of Truck Spear Part,PCS,16,58.72,13.76,SPARE PARTS,25
+Casting Parts with Spear Heads/Iron Flowers,PCS,1,3.67,0.86,SPARE PARTS,25
+68h Contra Angle Dental Handpiece,PCS,50,183.5,43,SPARE PARTS,25
+Copper Casting Machine Spear Part,PCS,10,36.7,8.6,SPARE PARTS,25
 Cold Drawn Alloy Steel Auto Spear Parts,TONS,800,2936,688,SPARE PARTS,25
-Professional Car CNC Machining,PC,10,36.7,8.6,SPARE PARTS,25
-Professional CNC Bike Spear Machining Parts,PC,10,36.7,8.6,SPARE PARTS,25
-Shenzhen High Demand Polishing CNC Spear Parts,PC,10,36.7,8.6,SPARE PARTS,25
-Electronics Spear Part with Precison Punching Process,PC,0.5,1.84,0.43,SPARE PARTS,25
-CNC Machining Service,PC,10,36.7,8.6,SPARE PARTS,25
+Professional Car CNC Machining,PCS,10,36.7,8.6,SPARE PARTS,25
+Professional CNC Bike Spear Machining Parts,PCS,10,36.7,8.6,SPARE PARTS,25
+Shenzhen High Demand Polishing CNC Spear Parts,PCS,10,36.7,8.6,SPARE PARTS,25
+Electronics Spear Part with Precison Punching Process,PCS,0.5,1.84,0.43,SPARE PARTS,25
+CNC Machining Service,PCS,10,36.7,8.6,SPARE PARTS,25
 Cold Hot Foging Parts with Sand Blasting,TONS,2000,7340,1720,SPARE PARTS,25
 Custom Grey Iron Sand Casting Parts with Sand Blasting,TONS,2000,7340,1720,SPARE PARTS,25
-34116860016 BMW Mini Cooper Brake Pads Replacement ,SET,8,29.36,6.88,SPARE PARTS,25
-Centrifugal Mining Machinery 30 Kw 100 M3/H,SET,800,2936,688,SPARE PARTS,25
-Elevator Overload Measurement (SN-EOM-370),PC,70,256.9,60.2,SPARE PARTS,25
-Nordson Powder Spray Gun Spare Parts,PC,4.5,16.52,3.87,SPARE PARTS,25
-Elevator Parts Safety Gear CB300,PC,80,293.6,68.8,SPARE PARTS,25
-Agricultural Machinery Spare Parts,PC,100,367,86,SPARE PARTS,25
-The Sure Coat Painting Gun Parts,PC,39.4,144.6,33.88,SPARE PARTS,25
-Powder Coating Gun Spare Part,PC,45.7,167.72,39.3,SPARE PARTS,25
-Vertical Milling CNC Machine Spear Parts Operations,PC,10,36.7,8.6,SPARE PARTS,25
-Decorative Forging Foundry Wrought Iron Forged Parts,PC,3,11.01,2.58,SPARE PARTS,25
-Elevator Fans with CE and ISO9001 Certification,PC,200,734,172,SPARE PARTS,25
-Electrostatic Gun Accessories (Flat nozzle),PC,12,44.04,10.32,SPARE PARTS,25
-Overload Sensor for Elevator (SN-EOM-370 & SN-EOM-A),PC,70,256.9,60.2,SPARE PARTS,25
-Excavator Spare Parts Dustpan Bucket,PC,1000,3670,860,SPARE PARTS,25
-Elevator Limit Switch for Hoistway,PC,10,36.7,8.6,SPARE PARTS,25
-Yuchai Parts Engine,PC,3000,11010,2580,SPARE PARTS,25
-Hydraulic Vibrating Plate Compactor for Komatsu200 Excavator,PC,1000,3670,860,SPARE PARTS,25
-Electrostatic Spray Gun Resistor 134385,PC,79,289.93,67.94,SPARE PARTS,25
-Electrostatic Spray Gun Resistor 134376,PC,31,113.77,26.66,SPARE PARTS,25
-Resistor for Spray Gun,PC,36,132.12,30.96,SPARE PARTS,25
-Wear Parts Tillage Tools  Tungsten Carbide,PC,30,110.1,25.8,SPARE PARTS,25
-R32 Flame Jet Cutting Machine Burner ,PC,199,730.33,171.14,SPARE PARTS,25
+34116860016 BMW Mini Cooper Brake Pads Replacement ,SETS,8,29.36,6.88,SPARE PARTS,25
+Centrifugal Mining Machinery 30 Kw 100 M3/H,SETS,800,2936,688,SPARE PARTS,25
+Elevator Overload Measurement (SN-EOM-370),PCS,70,256.9,60.2,SPARE PARTS,25
+Nordson Powder Spray Gun Spare Parts,PCS,4.5,16.52,3.87,SPARE PARTS,25
+Elevator Parts Safety Gear CB300,PCS,80,293.6,68.8,SPARE PARTS,25
+Agricultural Machinery Spare Parts,PCS,100,367,86,SPARE PARTS,25
+The Sure Coat Painting Gun Parts,PCS,39.4,144.6,33.88,SPARE PARTS,25
+Powder Coating Gun Spare Part,PCS,45.7,167.72,39.3,SPARE PARTS,25
+Vertical Milling CNC Machine Spear Parts Operations,PCS,10,36.7,8.6,SPARE PARTS,25
+Decorative Forging Foundry Wrought Iron Forged Parts,PCS,3,11.01,2.58,SPARE PARTS,25
+Elevator Fans with CE and ISO9001 Certification,PCS,200,734,172,SPARE PARTS,25
+Electrostatic Gun Accessories (Flat nozzle),PCS,12,44.04,10.32,SPARE PARTS,25
+Overload Sensor for Elevator (SN-EOM-370 & SN-EOM-A),PCS,70,256.9,60.2,SPARE PARTS,25
+Excavator Spare Parts Dustpan Bucket,PCS,1000,3670,860,SPARE PARTS,25
+Elevator Limit Switch for Hoistway,PCS,10,36.7,8.6,SPARE PARTS,25
+Yuchai Parts Engine,PCS,3000,11010,2580,SPARE PARTS,25
+Hydraulic Vibrating Plate Compactor for Komatsu200 Excavator,PCS,1000,3670,860,SPARE PARTS,25
+Electrostatic Spray Gun Resistor 134385,PCS,79,289.93,67.94,SPARE PARTS,25
+Electrostatic Spray Gun Resistor 134376,PCS,31,113.77,26.66,SPARE PARTS,25
+Resistor for Spray Gun,PCS,36,132.12,30.96,SPARE PARTS,25
+Wear Parts Tillage Tools  Tungsten Carbide,PCS,30,110.1,25.8,SPARE PARTS,25
+R32 Flame Jet Cutting Machine Burner ,PCS,199,730.33,171.14,SPARE PARTS,25
 OEM Factory Wrought Iron Products,TONS,1400,5138,1204,SPARE PARTS,25
-Wrought Iron Accessories for Iron Stair,PC,10,36.7,8.6,SPARE PARTS,25
-Touch Screen Digitizer for Alcatel Ot6040,PC,10.5,38.54,9.03,SPARE PARTS,25
-Reversible Chisel Spikes for Agriculture Parts,PC,30,110.1,25.8,SPARE PARTS,25
-Flame Jet Burner for Cutting Rocks,PC,199,730.33,171.14,SPARE PARTS,25
-Casting Agricultural Machinery Parts,PC,30,110.1,25.8,SPARE PARTS,25
-Flame Jet Burner for Cutting Rocks Efficiently,PC,199,730.33,171.14,SPARE PARTS,25
-Cultivator Shovels  Tillage Machine Parts,PC,30,110.1,25.8,SPARE PARTS,25
-Earth Drill Bit Set (HS-ERD-007),PC,100,367,86,SPARE PARTS,25
-Earth Drill Attachments (HS-EDP-009),PC,100,367,86,SPARE PARTS,25
-Earth Drill Attachments-Vertical Auger (HS-EAP-007),PC,100,367,86,SPARE PARTS,25
-Motorcycle Parts-Handle Switch Dt125 for YAMAHA,PC,3.5,12.85,3.01,SPARE PARTS,25
-70cc Motorcycle Valve,PC,12,44.04,10.32,SPARE PARTS,25
-YAMAHA125cc Cylinder  Motorcycle Engine,PC,11,40.37,9.46,SPARE PARTS,25
-Precision Cheap Bronze Alloy 6061 Spear Parts,PC,10,36.7,8.6,SPARE PARTS,25
-Rear Brake Pad Disc D1354 OEM 04466-12130,PC,10,36.7,8.6,SPARE PARTS,25
-Customized Forged Steel Decorative Spear,TON,6850,25139.5,5891,SPARE PARTS,25
-CE Approved 70HP Farm Tractor,PC,7000,25690,6020,SPARE PARTS,25
-Watch Spear Parts CNC Machining Service,PC,10,36.7,8.6,SPARE PARTS,25
-Ornamental Parts Wrought Iron Spear Head,TON,1500,5505,1290,SPARE PARTS,25
-Agriculture Parts Bale Handler Hay Spear Frame,PC,80,293.6,68.8,SPARE PARTS,25
-Spring Steel Spear Shaft with Ppap,PC,3,11.01,2.58,SPARE PARTS,25
-Kone Elevator Spear Parts Km878240g01,PC,70,256.9,60.2,SPARE PARTS,25
-UPVC Handle Type Butterfly Valve ,PC,12,44.04,10.32,SPARE PARTS,25
-CPVC Diaphragm Valve,PC,7,25.69,6.02,SPARE PARTS,25
-PVDF Handle Type Butterfly Valve,PC,30,110.1,25.8,SPARE PARTS,25
-Split-Body Carbon Steel Industrial Flanged Trunnion Ball Valve,PC,150000,550500,129000,SPARE PARTS,25
-2PC Industrial Ball Valve Dn32,PC,5.53,20.3,4.76,SPARE PARTS,25
-PVC butterfly valve,PC,3000,11010,2580,SPARE PARTS,25
-Ductile Iron Flanged Gate Valve for Drinking Water,PC,200,734,172,SPARE PARTS,25
-UL Listed OS&Y Type Cast Steel Flanged Gate Valve,PC,219,803.73,188.34,SPARE PARTS,25
-Screw NPT or Bsp Ends,PC,145,532.15,124.7,SPARE PARTS,25
-RF Industrial Flanged Ball Valve (Q41F-16P),PC,15.8,57.99,13.59,SPARE PARTS,25
-Mounted Trunnion Ball Valve with Flange RF Ends,PC,50,183.5,43,SPARE PARTS,25
-PVC Plastic Diaphragm Valve/Ball,PC,120,440.4,103.2,SPARE PARTS,25
-API 6D Industrial Swing Check Valve,PC,48,176.16,41.28,SPARE PARTS,25
-Forged Steel Flanged Swing Check Valve,PC,299,1097.33,257.14,SPARE PARTS,25
-Lug Plastic PVC Butterfly Valve by ANSI,PC,9,33.03,7.74,SPARE PARTS,25
-Casting Steel Flanged Industrial Globe Valve,PC,80000,293600,68800,SPARE PARTS,25
-Wafer Motorized Industrial Butterfly Valve,PC,15,55.05,12.9,SPARE PARTS,25
-Pneumatic Diaphragm Valve,PC,5,18.35,4.3,SPARE PARTS,25
-Flange RF or Bw Cast & Forged Wedge Gate Valve,PC,145,532.15,124.7,SPARE PARTS,25
-Flanged Butterfly Control Valve,PC,980,3596.6,842.8,SPARE PARTS,25
-Wafer Type Butterfly Valve with Gear Operator,PC,39.9,146.43,34.31,SPARE PARTS,25
-Flange Split-Body Carbon Steel Trunnion Ball Valve,PC,2000,7340,1720,SPARE PARTS,25
-Swing Type PVC Plastic Water Check Valve,PC,20,73.4,17.2,SPARE PARTS,25
-Double Eccentric Flanged Butterfly Valve,PC,100,367,86,SPARE PARTS,25
-Pharmacy Industrial Sanitary Diaphram Valve,PC,40,146.8,34.4,SPARE PARTS,25
-CPVC Worm Gear Butterfly Valve,PC,82,300.94,70.52,SPARE PARTS,25
-Pneumatic Solenoid Pulse Valve,PC,70,256.9,60.2,SPARE PARTS,25
-150 Lb Casting Stainless Steel Flanged,PC,80000,293600,68800,SPARE PARTS,25
-DIN Wcb Flanged Globe Valve,PC,10,36.7,8.6,SPARE PARTS,25
-Forged Steel Sw Industrial Globe Valve,PC,80000,293600,68800,SPARE PARTS,25
-3A Pharmaceutical Diaphragm Valve,PC,500,1835,430,SPARE PARTS,25
-PVC Pneumatic Ball Valve,PC,50,183.5,43,SPARE PARTS,25
-Double Shaft Soft Seat Wafer Butterfly Valve,PC,980,3596.6,842.8,SPARE PARTS,25
-Carbon Steel Lug Industrial Check Valve,PC,299,1097.33,257.14,SPARE PARTS,25
-Rising Stem Flanged Industrial Gate Valve,PC,10,36.7,8.6,SPARE PARTS,25
-Cast Carbon Steel Rinsing Stem Gate Valve,PC,220,807.4,189.2,SPARE PARTS,25
-Back Wash Filter Automatic Valve,SET,53,194.51,45.58,SPARE PARTS,25
-ANSI 300lb Stainless Steel Industrial Gate Valve,PC,10,36.7,8.6,SPARE PARTS,25
+Wrought Iron Accessories for Iron Stair,PCS,10,36.7,8.6,SPARE PARTS,25
+Touch Screen Digitizer for Alcatel Ot6040,PCS,10.5,38.54,9.03,SPARE PARTS,25
+Reversible Chisel Spikes for Agriculture Parts,PCS,30,110.1,25.8,SPARE PARTS,25
+Flame Jet Burner for Cutting Rocks,PCS,199,730.33,171.14,SPARE PARTS,25
+Casting Agricultural Machinery Parts,PCS,30,110.1,25.8,SPARE PARTS,25
+Flame Jet Burner for Cutting Rocks Efficiently,PCS,199,730.33,171.14,SPARE PARTS,25
+Cultivator Shovels  Tillage Machine Parts,PCS,30,110.1,25.8,SPARE PARTS,25
+Earth Drill Bit SETS (HS-ERD-007),PCS,100,367,86,SPARE PARTS,25
+Earth Drill Attachments (HS-EDP-009),PCS,100,367,86,SPARE PARTS,25
+Earth Drill Attachments-Vertical Auger (HS-EAP-007),PCS,100,367,86,SPARE PARTS,25
+Motorcycle Parts-Handle Switch Dt125 for YAMAHA,PCS,3.5,12.85,3.01,SPARE PARTS,25
+70cc Motorcycle Valve,PCS,12,44.04,10.32,SPARE PARTS,25
+YAMAHA125cc Cylinder  Motorcycle Engine,PCS,11,40.37,9.46,SPARE PARTS,25
+Precision Cheap Bronze Alloy 6061 Spear Parts,PCS,10,36.7,8.6,SPARE PARTS,25
+Rear Brake Pad Disc D1354 OEM 04466-12130,PCS,10,36.7,8.6,SPARE PARTS,25
+Customized Forged Steel Decorative Spear,TONS,6850,25139.5,5891,SPARE PARTS,25
+CE Approved 70HP Farm Tractor,PCS,7000,25690,6020,SPARE PARTS,25
+Watch Spear Parts CNC Machining Service,PCS,10,36.7,8.6,SPARE PARTS,25
+Ornamental Parts Wrought Iron Spear Head,TONS,1500,5505,1290,SPARE PARTS,25
+Agriculture Parts Bale Handler Hay Spear Frame,PCS,80,293.6,68.8,SPARE PARTS,25
+Spring Steel Spear Shaft with Ppap,PCS,3,11.01,2.58,SPARE PARTS,25
+Kone Elevator Spear Parts Km878240g01,PCS,70,256.9,60.2,SPARE PARTS,25
+UPVC Handle Type Butterfly Valve ,PCS,12,44.04,10.32,SPARE PARTS,25
+CPVC Diaphragm Valve,PCS,7,25.69,6.02,SPARE PARTS,25
+PVDF Handle Type Butterfly Valve,PCS,30,110.1,25.8,SPARE PARTS,25
+Split-Body Carbon Steel Industrial Flanged Trunnion Ball Valve,PCS,150000,550500,129000,SPARE PARTS,25
+2PC Industrial Ball Valve Dn32,PCS,5.53,20.3,4.76,SPARE PARTS,25
+PVC butterfly valve,PCS,3000,11010,2580,SPARE PARTS,25
+Ductile Iron Flanged Gate Valve for Drinking Water,PCS,200,734,172,SPARE PARTS,25
+UL Listed OS&Y Type Cast Steel Flanged Gate Valve,PCS,219,803.73,188.34,SPARE PARTS,25
+Screw NPT or Bsp Ends,PCS,145,532.15,124.7,SPARE PARTS,25
+RF Industrial Flanged Ball Valve (Q41F-16P),PCS,15.8,57.99,13.59,SPARE PARTS,25
+Mounted Trunnion Ball Valve with Flange RF Ends,PCS,50,183.5,43,SPARE PARTS,25
+PVC Plastic Diaphragm Valve/Ball,PCS,120,440.4,103.2,SPARE PARTS,25
+API 6D Industrial Swing Check Valve,PCS,48,176.16,41.28,SPARE PARTS,25
+Forged Steel Flanged Swing Check Valve,PCS,299,1097.33,257.14,SPARE PARTS,25
+Lug Plastic PVC Butterfly Valve by ANSI,PCS,9,33.03,7.74,SPARE PARTS,25
+Casting Steel Flanged Industrial Globe Valve,PCS,80000,293600,68800,SPARE PARTS,25
+Wafer Motorized Industrial Butterfly Valve,PCS,15,55.05,12.9,SPARE PARTS,25
+Pneumatic Diaphragm Valve,PCS,5,18.35,4.3,SPARE PARTS,25
+Flange RF or Bw Cast & Forged Wedge Gate Valve,PCS,145,532.15,124.7,SPARE PARTS,25
+Flanged Butterfly Control Valve,PCS,980,3596.6,842.8,SPARE PARTS,25
+Wafer Type Butterfly Valve with Gear Operator,PCS,39.9,146.43,34.31,SPARE PARTS,25
+Flange Split-Body Carbon Steel Trunnion Ball Valve,PCS,2000,7340,1720,SPARE PARTS,25
+Swing Type PVC Plastic Water Check Valve,PCS,20,73.4,17.2,SPARE PARTS,25
+Double Eccentric Flanged Butterfly Valve,PCS,100,367,86,SPARE PARTS,25
+Pharmacy Industrial Sanitary Diaphram Valve,PCS,40,146.8,34.4,SPARE PARTS,25
+CPVC Worm Gear Butterfly Valve,PCS,82,300.94,70.52,SPARE PARTS,25
+Pneumatic Solenoid Pulse Valve,PCS,70,256.9,60.2,SPARE PARTS,25
+150 Lb Casting Stainless Steel Flanged,PCS,80000,293600,68800,SPARE PARTS,25
+DIN Wcb Flanged Globe Valve,PCS,10,36.7,8.6,SPARE PARTS,25
+Forged Steel Sw Industrial Globe Valve,PCS,80000,293600,68800,SPARE PARTS,25
+3A Pharmaceutical Diaphragm Valve,PCS,500,1835,430,SPARE PARTS,25
+PVC Pneumatic Ball Valve,PCS,50,183.5,43,SPARE PARTS,25
+Double Shaft Soft Seat Wafer Butterfly Valve,PCS,980,3596.6,842.8,SPARE PARTS,25
+Carbon Steel Lug Industrial Check Valve,PCS,299,1097.33,257.14,SPARE PARTS,25
+Rising Stem Flanged Industrial Gate Valve,PCS,10,36.7,8.6,SPARE PARTS,25
+Cast Carbon Steel Rinsing Stem Gate Valve,PCS,220,807.4,189.2,SPARE PARTS,25
+Back Wash Filter Automatic Valve,SETS,53,194.51,45.58,SPARE PARTS,25
+ANSI 300lb Stainless Steel Industrial Gate Valve,PCS,10,36.7,8.6,SPARE PARTS,25
 [817m40+Q/T] Forged Roundآ Steel,TONS,1250,4587.5,1075,STEEL (2),5
 300 Series Building Material Stainlessآ Steelآ Tube,TONS,500,1835,430,STEEL (2),5
 301/1cr17ni7/SUS301 Popular Produce 0.3-3mm Thick Cold Rollsed Grade Stainlessآ Steel,TONS,4500,16515,3870,STEEL (2),5
@@ -2539,7 +2537,7 @@ API 5L X52ns Psl1/Psl2 Seamlessآ Steelآ Pipe,TONS,650,2385.5,559,STEEL-PIPE,
 Dipped Galvanizedآ Steelآ Pipe,TONS,730,2679.1,627.8,STEEL-PIPE,5
 ASTM API 5L Black Carbonآ Steelآ Pipe,TONS,500,1835,430,STEEL-PIPE,5
 Automatic Non Woven Polyester Wadding Fabric Making Machines / Nonwoven Thermal Bonded Polyester Wadding Machine,PCS,40000,146800,34400,TEXTIL MACHINERY,27
-Textile Finishing Machine/Textile Finishing Machinery/ Heat-Setting Stenter (FSLD),PCS,273000,1001910,234780,TEXTIL MACHINERY,27
+Textile Finishing Machine/Textile Finishing Machinery/ Heat-SETSting Stenter (FSLD),PCS,273000,1001910,234780,TEXTIL MACHINERY,27
 Computerized Jacquard Textile Fabric Circular Knitting Machinery (YD-AD11),PCS,15000,55050,12900,TEXTIL MACHINERY,27
 Fabric Waste Cutting Machine for Recycling for Jeans/Clothes/Fabric Cotton Textile Waste Waste Yarn Opening Machine Cotton Waste Cleaning Slitter Machine,PCS,3500,12845,3010,TEXTIL MACHINERY,27
 Woven Fabric Measuring and Inspection Textile Rolling Machine,SETS,6500,23855,5590,TEXTIL MACHINERY,27
@@ -2581,8 +2579,8 @@ Medical Gauze Textile Machinery Air Jet Weaving Machine,PCS,19000,69730,16340,TE
 Zn60d Margassa Model Textile Waste Recycling Machine,SETS,23000,84410,19780,TEXTIL MACHINERY,27
 High Quality Water Jet Weaving Loom Textile Machine for Sale,SETS,11350,41654.5,9761,TEXTIL MACHINERY,27
 Yunlong Fa316b Type High Speed Drawing Frame Textile Machine,SETS,15000,55050,12900,TEXTIL MACHINERY,27
-Hard Cotton Fabric Cotton Acupuncture Machine / Textile Recycling Non Woven Needle Punching Felt Making Machine,PC,40000,146800,34400,TEXTIL MACHINERY,27
-Chinese Supplier of Textile Airflow Dyeing Machinery Printing Machine,PC,50000,183500,43000,TEXTIL MACHINERY,27
+Hard Cotton Fabric Cotton Acupuncture Machine / Textile Recycling Non Woven Needle Punching Felt Making Machine,PCS,40000,146800,34400,TEXTIL MACHINERY,27
+Chinese Supplier of Textile Airflow Dyeing Machinery Printing Machine,PCS,50000,183500,43000,TEXTIL MACHINERY,27
 Textile Machine/ Fabrics Soft Calender / Vertical Calender Machine/Textile Finishing Machine,PCS,41600,152672,35776,TEXTIL MACHINERY,27
 Tongda Blowroom Carding Machine Textile Machine for Spinning Line,PCS,132000,484440,113520,TEXTIL MACHINERY,27
 Zn70d Textile Waste Opening Machine,SETS,13500,49545,11610,TEXTIL MACHINERY,27
@@ -2633,11 +2631,11 @@ Digital Textile Printing (KQC-0034),MS,8.5,31.2,7.17,TEXTILE,54
 100% PP Spunbond Non Woven Textile,TONS,1850,6789.5,1561.59,TEXTILE,54
 New Linen Type Sofa Fabric/ Textile for Sofa Cover,MS,4,14.68,3.38,TEXTILE,54
 Fine Wool Checked Fabric with Alpaca for Winter Clothing Garment Fabric Textile Fabric,YARD,14.5,53.22,12.24,TEXTILE,54
-Home Textile with 100% Cotton Fabric Customized OEM Three Piece Queen Bedding Set Bedspread Set with 1 Bedspread and 2 Pillow Case with 100% Cotton,PC,75,275.25,63.31,TEXTILE,54
+Home Textile with 100% Cotton Fabric Customized OEM Three Piece Queen Bedding SETS Bedspread SETS with 1 Bedspread and 2 Pillow Case with 100% Cotton,PCS,75,275.25,63.31,TEXTILE,54
 Ceramic Fiber Clothing  Ceramic Fiber Textile,ROLLS,10,36.7,8.44,TEXTILE,54
 Brushed Microfiber Bedsheets Home Textile,SETS,9.7,35.6,8.19,TEXTILE,54
 Jacquard Modern Design Polyester Curtain Home Textile,PAIR,15,55.05,12.66,TEXTILE,54
-100% Cotton Hotel Home Use Jacquard Bath Rug Textile (JRD257),PC,7,25.69,5.91,TEXTILE,54
+100% Cotton Hotel Home Use Jacquard Bath Rug Textile (JRD257),PCS,7,25.69,5.91,TEXTILE,54
 Biodegradable Spunbond Nonwoven Home Textile,TONS,1950,7156.5,1646,TEXTILE,54
 Agriculture Non Woven Cloth  TNT Textile for Fruit Cover,TONS,1750,6422.5,1477.18,TEXTILE,54
 Milk Yarn Embroidered Fish Lace Textile for Women?s Clothes,YARD,3,11.01,2.53,TEXTILE,54
@@ -2650,14 +2648,14 @@ Bronzed Suede Fabric Sofa Fabric Home Textile,MS,3.5,12.85,2.95,TEXTILE,54
 Fationable Plaid 84%Rayon 16%Tencel Fabric Textile for Garment Hangzhou China Market,MS,7.5,27.53,6.33,TEXTILE,54
 Velvet Fabric Textile for Sofa Cover,MS,2.8,10.28,2.36,TEXTILE,54
 50~300GSM Textile for Truck Cover / Pool Cover / Boat Cover,TONS,2000,7340,1688.2,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Price,PCS,11,40.37,9.29,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Price,PCS,11,40.37,9.29,TEXTILE,54
 Pure Cotton Satin Lace Four-Piece Home Textile Wholesale,PCS,57,209.19,48.11,TEXTILE,54
 PP Spunbonded Nonwoven Home Textile,TONS,1950,7156.5,1646,TEXTILE,54
-Bedding Set Home Textile (DPF0610103),PC,11,40.37,9.29,TEXTILE,54
-New Fashion Textile Luminous Glow-in -The-Dark Embroidery Thread for Knitting,PC,3,11.01,2.53,TEXTILE,54
-Terry Mattress Pad Textiles From China,PC,20,73.4,16.88,TEXTILE,54
+Bedding SETS Home Textile (DPF0610103),PCS,11,40.37,9.29,TEXTILE,54
+New Fashion Textile Luminous Glow-in -The-Dark Embroidery Thread for Knitting,PCS,3,11.01,2.53,TEXTILE,54
+Terry Mattress Pad Textiles From China,PCS,20,73.4,16.88,TEXTILE,54
 Copolyester Hot Melt Adhesive Powder for Textile Transfer PA,KGS,12,44.04,10.13,TEXTILE,54
-Queen Size Summer Quilt Cover Set Home Textile,PCS,55,201.85,46.43,TEXTILE,54
+Queen Size Summer Quilt Cover SETS Home Textile,PCS,55,201.85,46.43,TEXTILE,54
 GB/T7984-D Plied Textile Belting/Impact and Abrasion Resistant Ep Nn Cc Conveyor Belt,MS,10,36.7,8.44,TEXTILE,54
 Beaded 3D Flowers Net Mesh Lace Fabric Embroidery Textile with Handwork,YARDS,15.6,57.25,13.17,TEXTILE,54
 China Manufacturer Digital Print Fabric Textile Printing (KQC-0035),MS,8,29.36,6.75,TEXTILE,54
@@ -2675,14 +2673,14 @@ Rubber Conveyor Belt / Textile / Abrasion-Resistant / Rubber-Covered,M2,30,110.1
 Colorful Polyester Fabric Metallic Printed Textile,M2,4,14.68,3.38,TEXTILE,54
 Thermal Insulation Materials Silica Fabric and Textiles with Adhesive,M2,25,91.75,21.1,TEXTILE,54
 50~300GSM Textile for Truck Cover / Pool Cover / Boat Cover,TONS,2000,7340,1688.2,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Price,PC,11,40.37,9.29,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Price,PCS,11,40.37,9.29,TEXTILE,54
 Pure Cotton Satin Lace Four-Piece Home Textile Wholesale,PCS,57,209.19,48.11,TEXTILE,54
 Professional Hotel Textile Supplier Microfiber,SETS,15,55.05,12.66,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Supplier,PCS,11,40.37,9.29,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Supplier,PCS,11,40.37,9.29,TEXTILE,54
 100% PP Spunbond Non Woven Textile,TONS,1950,7156.5,1646,TEXTILE,54
 100% Polypropylene Printed Non-Woven Textile,TONS,2990,10973.3,2523.86,TEXTILE,54
 Hot Sale Upholstery Shrink Resistant Plain Sofa Fabric Home Textile,MS,2.6,9.54,2.19,TEXTILE,54
-Ceramic Fiber Textiles for Kiln,PC,60,220.2,50.65,TEXTILE,54
+Ceramic Fiber Textiles for Kiln,PCS,60,220.2,50.65,TEXTILE,54
 90GSM 1500 Series Brushed Microfiber Bed Sheets Home Textile,SETS,9.5,34.87,8.02,TEXTILE,54
 Biodegradable Polypropylene Spunbond Nonwoven Home Textile,TONS,1950,7156.5,1646,TEXTILE,54
 Pretty Shuttle Jacquard Auto Bonding Fabric Textile,M2,2.5,9.18,2.11,TEXTILE,54
@@ -2692,9 +2690,9 @@ White and Black Color Lumber Cover Fabrics /Scrim Silt Fence/ Ground Cover/ Geo-
 50GSM-300GSM Korea Textile with UV Treated for Car /Truck / Boat Cover,TONS,2000,7340,1688.2,TEXTILE,54
 Dope Dyed Colored Polyester Yarn DTY Dtex Textile Fiber,KGS,3,11.01,2.53,TEXTILE,54
 Good Price Knitted Polyester Spandex Swimming Fabrics Textiles,KGS,10,36.7,8.44,TEXTILE,54
-Bedding Set Home (T5626526503),PCS,30,110.1,25.32,TEXTILE,54
+Bedding SETS Home (T5626526503),PCS,30,110.1,25.32,TEXTILE,54
 100% Polyester Jersey Fabric Spandex Outdoor Textile,MS,4,14.68,3.38,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Manufacturer,PCS,11,40.37,9.29,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Manufacturer,PCS,11,40.37,9.29,TEXTILE,54
 Biodegradable Polypropylene Spunbond Nonwoven Textile,TONS,1950,7156.5,1646,TEXTILE,54
 Eco-Friendly Spunbond Nonwoven Home Textile,TONS,1900,6973,1603.79,TEXTILE,54
 840GSM 3784 Satin Silica Gel Coated Fiberglass Industry Textile,M2,10,36.7,8.44,TEXTILE,54
@@ -2704,10 +2702,10 @@ Newest Popular Lace Fabric Wtih Neat Floral Pattern  Textile and Bridal Ls10052,
 Customized Color Plain White Cotton Hotel Textile,SETS,15,55.05,12.66,TEXTILE,54
 Factory Provide Knitted Jacquard Home Textile for Mattress Cover,MS,10,36.7,8.44,TEXTILE,54
 Rubber Conveyor Belt / Textile / Fire-Resistant / Anti-Static,MS,30,110.1,25.32,TEXTILE,54
-Color Patchwork Design Soft Flannel Blanket Set Home Textile,SETS,12.5,45.88,10.55,TEXTILE,54
+Color Patchwork Design Soft Flannel Blanket SETS Home Textile,SETS,12.5,45.88,10.55,TEXTILE,54
 Best Textile Auxiliary Silicone Oil Emulsion Looking for Agents,KGS,5,18.35,4.22,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Factory,PCS,11,40.37,9.29,TEXTILE,54
-100% Cotton White Bedding Set Home Textile,PCS,46,168.82,38.83,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Factory,PCS,11,40.37,9.29,TEXTILE,54
+100% Cotton White Bedding SETS Home Textile,PCS,46,168.82,38.83,TEXTILE,54
 Chenille Upholstery Furniture Jacquard Fabric Home Textile 2016,MS,4,14.68,3.38,TEXTILE,54
 Polypropylene Table Cloth Non Woven Fabric Textile,TONS,2690,9872.3,2270.63,TEXTILE,54
 Household Textile for Sofa Chair,MS,3,11.01,2.53,TEXTILE,54
@@ -2716,7 +2714,7 @@ Quilt Size Bedding Textile (DPF061201),PCS,10,36.7,8.44,TEXTILE,54
 Flower Printing Fabrics Silk Textile for Shirt (XF-0085),MS,8,29.36,6.75,TEXTILE,54
 3 Pieces 4 Piece Printed Microfiber Bedding Home Textile,SETS,10,36.7,8.44,TEXTILE,54
 Agriculture Non Woven Cloth  TNT Textile for Fruit Cover,TONS,1752,6429.84,1478.86,TEXTILE,54
-Microfiber Polyester Bedding 4 Pieces Sheet Set Home Textile Plant,PCS,11,40.37,9.29,TEXTILE,54
+Microfiber Polyester Bedding 4 Pieces Sheet SETS Home Textile Plant,PCS,11,40.37,9.29,TEXTILE,54
 Fashion New All-Over Embroidery Lace Textile For Women?s Clothes,YARD,4,14.68,3.38,TEXTILE,54
 Reasonable Price Knitted Polyester Spandex Fabrics Textiles for Sports,KGS,10,36.7,8.44,TEXTILE,54
 Best Textile Auxiliary Silicone Oil Emulsion Looking for Agents,KGS,5,18.35,4.22,TEXTILE,54
@@ -2887,20 +2885,20 @@ Bottle Recycling Line Washing Machine,SETS,48000,176160,41280,Washing Machine,59
 Customized Color Car Engine Carbon Washing Machine,SETS,5500,20185,4730,Washing Machine,59
 Automatic Bottle Washing Machine,PCS,12000,44040,10320,Washing Machine,59
 Air Bubble Washing Machine,SETS,15000,55050,12900,Washing Machine,59
-1300X2500mm Wooden CNC Router,SET,8000,29360,6752.8,WOOD MACHINE,29
-Spindle Less Veneer Peeling Lathe Plywood Machine,PC,18700,29360,6752.8,WOOD MACHINE,29
-Biomass Pellet Making Machine,SET,16000,68629,15784.67,WOOD MACHINE,29
-Router Engraving Cutting Machine for Acrylic,PC,20000,58720,13505.6,WOOD MACHINE,29
-Small Biomass Flat Die Wood Pellet Mill,SET,2000,73400,16882,WOOD MACHINE,29
-4 Feet Spindle Less Veneer Rotary Lathe,PC,20000,7340,1688.2,WOOD MACHINE,29
-3D Embossment Wood Engraving CNC Router,SET,8000,73400,16882,WOOD MACHINE,29
-Plywood Making Hot Press for Veneer Lamination,PC,80000,29360,6752.8,WOOD MACHINE,29
-CNC Router for Acrylic/Wood (SR513),SET,35000,293600,67528,WOOD MACHINE,29
-Wood Pellet Mill for The Wood Sawdust,PC,59000,128450,29543.5,WOOD MACHINE,29
-Decorative Woodworking Wrapping Machine,PC,9200,216530,49801.9,WOOD MACHINE,29
-CNC Router Vct-CCD1325atc8,PC,30000,33764,7765.72,WOOD MACHINE,29
-Engraving Machinery for Wooden Door,SET,8000,110100,25323,WOOD MACHINE,29
-Atc Woodworking CNC Router Wood CNC Router,SET,13000,29360,6752.8,WOOD MACHINE,29
+1300X2500mm Wooden CNC Router,SETS,8000,29360,6752.8,WOOD MACHINE,29
+Spindle Less Veneer Peeling Lathe Plywood Machine,PCS,18700,29360,6752.8,WOOD MACHINE,29
+Biomass Pellet Making Machine,SETS,16000,68629,15784.67,WOOD MACHINE,29
+Router Engraving Cutting Machine for Acrylic,PCS,20000,58720,13505.6,WOOD MACHINE,29
+Small Biomass Flat Die Wood Pellet Mill,SETS,2000,73400,16882,WOOD MACHINE,29
+4 Feet Spindle Less Veneer Rotary Lathe,PCS,20000,7340,1688.2,WOOD MACHINE,29
+3D Embossment Wood Engraving CNC Router,SETS,8000,73400,16882,WOOD MACHINE,29
+Plywood Making Hot Press for Veneer Lamination,PCS,80000,29360,6752.8,WOOD MACHINE,29
+CNC Router for Acrylic/Wood (SR513),SETS,35000,293600,67528,WOOD MACHINE,29
+Wood Pellet Mill for The Wood Sawdust,PCS,59000,128450,29543.5,WOOD MACHINE,29
+Decorative Woodworking Wrapping Machine,PCS,9200,216530,49801.9,WOOD MACHINE,29
+CNC Router Vct-CCD1325atc8,PCS,30000,33764,7765.72,WOOD MACHINE,29
+Engraving Machinery for Wooden Door,SETS,8000,110100,25323,WOOD MACHINE,29
+Atc Woodworking CNC Router Wood CNC Router,SETS,13000,29360,6752.8,WOOD MACHINE,29
 High Yield Rate Rock Sugar Production Line,PCS,40000,146800,34400,WOOD MACHINERY,29
 High Efficiency Coffee Beans Grader Series,PCS,8500,31195,7310,WOOD MACHINERY,29
 Checking Sieve for Wheat and Flour Quality Analyser,PCS,500,1835,430,WOOD MACHINERY,29
