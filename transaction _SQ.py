@@ -89,7 +89,7 @@ for i in range(len(repOrMainCo)):
 getBoldataframe(1, Colist)
 
 
-# In[28]:
+# In[9]:
 
 
 ones = {
@@ -147,7 +147,7 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[29]:
+# In[10]:
 
 
 amountToWord = []
@@ -166,7 +166,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[30]:
+# In[11]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -178,7 +178,7 @@ cityOfExporter = track['SourceCo.City']
 cityOfRepExporter = track['CO.City']
 
 
-# In[31]:
+# In[12]:
 
 
 def lcs(X , Y): 
@@ -207,7 +207,7 @@ def lcs(X , Y):
   
 
 
-# In[32]:
+# In[13]:
 
 
 def getClientRef(c, clientlist):
@@ -260,7 +260,7 @@ def bestmatch(candid,clientlist):
 # bestmatch('ANA GENERAL TRADING LLC',clientlist)
 
 
-# In[38]:
+# In[14]:
 
 
 for i in range(len(importer)):
@@ -270,7 +270,7 @@ for i in range(len(importer)):
         cityOfImporter[i] = cityImp
 
 
-# In[40]:
+# In[15]:
 
 
 numlist = []
@@ -288,7 +288,7 @@ for client in importer:
     c += 1 
 
 
-# In[41]:
+# In[16]:
 
 
 numlist = []
@@ -306,7 +306,7 @@ for client in repImporter:
     c += 1 
 
 
-# In[42]:
+# In[17]:
 
 
 def QtyClassification(amount, mean):
@@ -332,13 +332,13 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[44]:
+# In[18]:
 
 
 # int(QtyClassification(400000 , 2991.8068396226417))
 
 
-# In[45]:
+# In[19]:
 
 
 #Choosing products
@@ -391,7 +391,7 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[46]:
+# In[20]:
 
 
 def changeCurrency(i , data):
@@ -406,7 +406,7 @@ def changeCurrency(i , data):
         return float(track.loc[i,'amount'] * 0.75)
 
 
-# In[47]:
+# In[21]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -422,7 +422,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[48]:
+# In[22]:
 
 
 #amount    currency
@@ -572,7 +572,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[49]:
+# In[23]:
 
 
 #Origin
@@ -584,7 +584,7 @@ for word in cityOfExporter:
         origin.append(word)
         continue
     for i in range(len(word)):
-        if word[i] == '-':
+        if word[i] == ',':
             origin.append('Origin: ' + str(word[(i+1):len(word)]))
             bol = True
             break
@@ -594,7 +594,7 @@ for word in cityOfExporter:
         origin.append('Origin: ' + word)   
 
 
-# In[50]:
+# In[24]:
 
 
 #Loading
@@ -603,7 +603,7 @@ for city in cityOfExporter:
     load.append('Loading: ' + str(city))
 
 
-# In[51]:
+# In[25]:
 
 
 #dischareg
@@ -612,7 +612,7 @@ for city in cityOfImporter:
     dischareg.append('Discharge: ' + str(city))
 
 
-# In[52]:
+# In[26]:
 
 
 

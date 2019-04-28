@@ -26,7 +26,7 @@ productlist = pd.read_csv('product.csv',na_values =miss_value )
 productlist
 
 
-# In[6]:
+# In[4]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
@@ -34,14 +34,14 @@ Colist = pd.read_excel('List of Companies.xlsx')
 Colist
 
 
-# In[7]:
+# In[5]:
 
 
 track = pd.read_excel('TRACK.xlsx')
 track
 
 
-# In[8]:
+# In[6]:
 
 
 def getBoldataframe(TradingCode, datalist):
@@ -55,7 +55,7 @@ def getBoldataframe(TradingCode, datalist):
     return datalist[codeVector]
 
 
-# In[9]:
+# In[7]:
 
 
 # Distangolishing rep.Exporter and exporter in tacking sheet.
@@ -87,7 +87,7 @@ for i in range(len(repOrMainCo)):
         cityOfExporter.append(cityExp.title())
 
 
-# In[10]:
+# In[8]:
 
 
 ones = {
@@ -146,7 +146,7 @@ def _join(*args):
     return ' '.join(filter(bool, args))
 
 
-# In[11]:
+# In[9]:
 
 
 amountToWord = []
@@ -165,7 +165,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[12]:
+# In[10]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -177,7 +177,7 @@ cityOfImporter = track['SourceCo.City']
 cityOfrepImporter = track['CO.City']
 
 
-# In[13]:
+# In[11]:
 
 
 def lcs(X , Y): 
@@ -205,7 +205,7 @@ def lcs(X , Y):
 #end of function lcs 
 
 
-# In[14]:
+# In[12]:
 
 
 def getClientRef(c, clientlist):
@@ -258,7 +258,7 @@ def bestmatch(candid,clientlist):
 bestmatch('AL FEEL TRADING LLC',clientlist)
 
 
-# In[15]:
+# In[13]:
 
 
 for i in range(len(exporter)):
@@ -269,7 +269,7 @@ for i in range(len(exporter)):
 #     print(exporter[i],i)
 
 
-# In[16]:
+# In[14]:
 
 
 numlist = []
@@ -287,7 +287,7 @@ for client in repExporter:
     c += 1 
 
 
-# In[17]:
+# In[15]:
 
 
 def QtyClassification(amount, mean):
@@ -313,7 +313,7 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[18]:
+# In[16]:
 
 
 #Choosing products
@@ -364,14 +364,14 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[19]:
+# In[17]:
 
 
 # print(np.random.randint(0,102,1))
 getRandomKProduct(139409,26, productlist)
 
 
-# In[20]:
+# In[18]:
 
 
 def changeCurrency(i , data):
@@ -394,7 +394,7 @@ def changeCurrency(i , data):
         return
 
 
-# In[21]:
+# In[19]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -570,7 +570,7 @@ for word in cityOfExporter:
         origin.append(word)
         continue
     for i in range(len(word)):
-        if word[i] == '-':
+        if word[i] == ',':
             origin.append('Origin: ' + str(word[(i+1):len(word)]))
             bol = True
             break
