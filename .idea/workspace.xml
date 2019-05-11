@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b34cf7b-75f0-42ae-86d3-3b3264070f57" name="Default Changelist" comment="" />
+    <list default="true" id="4b34cf7b-75f0-42ae-86d3-3b3264070f57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/VLookUp_PO-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/VLookUp_PO-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/VLookUp_SQ-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/VLookUp_SQ-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracking Sheet output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Tracking Sheet output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VLookUp_PO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/VLookUp_PO.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VLookUp_SQ.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/VLookUp_SQ.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="26" />
     <option name="width" value="1366" />
     <option name="height" value="742" />
@@ -127,10 +133,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16690545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18851133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
