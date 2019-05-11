@@ -20,15 +20,15 @@ clientlist = pd.read_csv('2018 ABACUS CLIENTS.csv')
 
 
 productlist = pd.read_csv('product.csv',encoding='latin1' )
+
 # productlist
-productlist
 
 
 # In[4]:
 
 
 Colist = pd.read_excel('List of Companies.xlsx')
-Colist
+# Colist
 
 
 # In[5]:
