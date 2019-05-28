@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['VLookUp_SQ.py'],
-             pathex=['E:\\Amin\\Abacas-transaaction'],
+             pathex=['D:\\Amin\\Abacas-transaaction'],
              binaries=[],
              datas=[],
              hiddenimports=[],
