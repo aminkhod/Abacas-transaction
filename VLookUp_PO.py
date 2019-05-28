@@ -163,7 +163,7 @@ for number in track['amount']:
     c +=1
 
 
-# In[10]:
+# In[28]:
 
 
 #,DIS1,QTY1,UNIT1,UNITPRICE1,TOTAL1,DIS2,QTY2,UNIT2,UNITPRICE2,TOTAL2
@@ -172,10 +172,10 @@ for number in track['amount']:
 importer = track['SOURCE COMPANY']
 repImporter = track['COMPANY NAME']
 cityOfImporter = track['SourceCo.City']
-cityOfrepImporter = track['CO.City']
+cityOfRepImporter = track['CO.City']
 
 
-# In[11]:
+# In[29]:
 
 
 # def lcs(X , Y): 
@@ -203,7 +203,7 @@ cityOfrepImporter = track['CO.City']
 # #end of function lcs 
 
 
-# In[12]:
+# In[30]:
 
 
 # def getClientRef(c, clientlist):
@@ -256,7 +256,7 @@ cityOfrepImporter = track['CO.City']
 # bestmatch('AL FEEL TRADING LLC',clientlist)
 
 
-# In[13]:
+# In[31]:
 
 
 def getClientRef(c, clientlist):
@@ -282,7 +282,7 @@ def exactMatch(candid,clientlist):
     return num, candidRow
 
 
-# In[14]:
+# In[32]:
 
 
 for i in range(len(exporter)):
@@ -292,7 +292,7 @@ for i in range(len(exporter)):
         cityOfExporter[i] = cityExp
 
 
-# In[15]:
+# In[33]:
 
 
 numlist = []
@@ -310,7 +310,7 @@ for client in repExporter:
     c += 1 
 
 
-# In[16]:
+# In[34]:
 
 
 def QtyClassification(amount, mean):
@@ -336,7 +336,7 @@ def QtyClassification(amount, mean):
         return 5    
 
 
-# In[17]:
+# In[35]:
 
 
 #Choosing products
@@ -389,7 +389,7 @@ def getRandomKProduct(amount,iD, datalist):
     return RandomKProduct
 
 
-# In[18]:
+# In[36]:
 
 
 def changeCurrency(i , data):
@@ -412,7 +412,7 @@ def changeCurrency(i , data):
         return
 
 
-# In[19]:
+# In[37]:
 
 
 def returnCurrency( unitp, i, trak):
@@ -428,7 +428,7 @@ def returnCurrency( unitp, i, trak):
         return unitp
 
 
-# In[20]:
+# In[38]:
 
 
 #amount    currency
@@ -572,7 +572,7 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[21]:
+# In[39]:
 
 
 #Origin
@@ -603,7 +603,7 @@ for word in cityOfExporter:
         countryOfManufactureWith.append(('Country of Manufacture : ' + str(word)).upper())
 
 
-# In[22]:
+# In[40]:
 
 
 #Loading
@@ -614,7 +614,7 @@ for city in cityOfExporter:
     loadingWithoutLoading.append(str(city))
 
 
-# In[23]:
+# In[41]:
 
 
 #dischareg
@@ -643,7 +643,7 @@ for city in cityOfImporter:
         countryOfDestinationWith.append(('Country of destination : ' + city).upper())
 
 
-# In[24]:
+# In[42]:
 
 
 amountInWordsWithString = []
@@ -651,7 +651,7 @@ for  amToW in amountToWord:
     amountInWordsWithString.append('Amount in words : ' + amToW)
 
 
-# In[25]:
+# In[43]:
 
 
 #Date
@@ -678,7 +678,7 @@ for i in range(len(track['date'])):
     
 
 
-# In[28]:
+# In[44]:
 
 
 currwith = []
@@ -686,7 +686,7 @@ for curr in track['currency']:
     currwith.append('currency : ' + curr)
 
 
-# In[27]:
+# In[45]:
 
 
 forPO = []
