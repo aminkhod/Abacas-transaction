@@ -290,7 +290,7 @@ for i in range(len(importer)):
         cityOfImporter[i] = cityImp
 
 
-# In[1]:
+# In[15]:
 
 
 numlist = []
@@ -405,18 +405,18 @@ def changeCurrency(i , data):
 
 def returnCurrency( unitp, i, trak):
     if str(track.loc[i,'currency']).lower() == 'euro':
-        return float(unitp) / 0.89
+        return float(unitp) * 0.89
     elif str(track.loc[i,'currency']).lower() == 'aed':
-        return float(unitp) / 3.67
+        return float(unitp) * 3.67
     elif str(track.loc[i,'currency']).lower() == 'pound':
-        return float(unitp) / 0.76
+        return float(unitp) * 0.76
     elif str(track.loc[i,'currency']).lower() == 'cad':
-        return float(unitp) / 1.34
+        return float(unitp) * 1.34
     else:
         return unitp
 
 
-# In[26]:
+# In[20]:
 
 
 #amount    currency
@@ -474,7 +474,7 @@ for i in range(len(track['date'])):
     tempqty = 0
     if (len(RandomKProduct['p_name']) >1):
         for j in range(len(RandomKProduct['p_name']) - 1):
-            bound = int(copyamount / float(RandomKProduct.loc[j,'dollar'] ))
+            bound = int(copyamount / float(returnCurrency(RandomKProduct.loc[j,'dollar'],i ,track)))
             pname.append(RandomKProduct.loc[j,'p_name'] )
             unit.append(RandomKProduct.loc[j,'unit'])
             unitp.append(returnCurrency(RandomKProduct.loc[j,'dollar'],i ,track))
@@ -491,8 +491,7 @@ for i in range(len(track['date'])):
     pname.append(RandomKProduct.loc[k,'p_name'] )
     unit.append(RandomKProduct.loc[k,'unit'])
     unitp.append(returnCurrency(RandomKProduct.loc[k,'dollar'],i ,track))
-
-    qty.append(int(copyamount / RandomKProduct.loc[k,'dollar']))
+    qty.append(int(copyamount / unitp[-1]))
     
     unitp[-1] = float(copyamount / qty[-1])
     total.append(np.round((amount - tot), decimals=2))
@@ -558,13 +557,14 @@ for i in range(len(track['date'])):
         p5total.append('')        
 
 
-# In[27]:
+# In[21]:
 
 
 #Origin
 origin = []
 originWithoutOrigin = []
 countryOfManufacture = []
+countryOfManufactureWith = []
 bol = False
 for word in cityOfExporter:
     word = str(word)
@@ -576,15 +576,19 @@ for word in cityOfExporter:
             origin.append('Origin: ' + str(word[(i+2):len(word)]))
             originWithoutOrigin.append(str(word[(i+2):len(word)]))
             countryOfManufacture.append(str(word[(i+2):len(word)]).upper())
+            countryOfManufactureWith.append(('Country of Manufacture : ' + str(word[(i+2):len(word)])).upper())
             bol = True
             break
         else:
             bol = False
     if not bol:
-        origin.append('Origin: ' + word)   
+        origin.append('Origin: ' + word)
+        originWithoutOrigin.append(word)
+        countryOfManufacture.append(str(word).upper())
+        countryOfManufactureWith.append(('Country of Manufacture : ' + str(word)).upper())
 
 
-# In[28]:
+# In[22]:
 
 
 #Loading
@@ -595,13 +599,14 @@ for city in cityOfExporter:
     loadingWithoutLoading.append(str(city))
 
 
-# In[29]:
+# In[23]:
 
 
 #dischareg
 dischareg = []
 dischargeWithoutDischarge = []
 countryOfDestination = []
+countryOfDestinationWith = []
 bol = False
 for city in cityOfImporter:
     city = str(city)
@@ -613,15 +618,17 @@ for city in cityOfImporter:
     for i in range(len(city)):
         if city[i] == ',':
             countryOfDestination.append(str(city[(i+2):len(city)]).upper())
+            countryOfDestinationWith.append(('Country of destination : ' + str(city[(i+2):len(city)])).upper())
             bol = True
             break
         else:
             bol = False
     if not bol:
         countryOfDestination.append(city.upper())   
+        countryOfDestinationWith.append(('Country of destination : ' + city).upper())
 
 
-# In[ ]:
+# In[24]:
 
 
 amountInWordsWithString = []
@@ -629,7 +636,7 @@ for  amToW in amountToWord:
     amountInWordsWithString.append('Amount in words : ' + amToW )
 
 
-# In[ ]:
+# In[25]:
 
 
 #Date
@@ -637,25 +644,45 @@ datePO = []
 dateSQ = []
 datePI = []
 dateCIorPL =[]
+
+datePOWith = [] 
+dateSQWith = []
+datePIWith = []
+dateCIorPLWith =[]
+
 for i in range(len(track['date'])):
-    datePO.append('=AP' + str(i+2) + ' - 30')
-    dateSQ.append('=AP' + str(i+2) + ' - 31')
-    datePI.append('=AP' + str(i+2) + ' - 5')
-    dateCIorPL.append('=AP' + str(i+2) + ' + 5')
+    datePO.append('=TEXT(AP' + str(i+2) + ' -30,"dd/mm/yyyy")')
+    dateSQ.append('=TEXT(AP' + str(i+2) + ' -31,"dd/mm/yyyy")')
+    datePI.append('=TEXT(AP' + str(i+2) + ' -25,"dd/mm/yyyy")')
+    dateCIorPL.append('=TEXT(AP' + str(i+2) + ' +10,"dd/mm/yyyy")')
+
+    datePOWith.append('="Date: " & (TEXT(AP' + str(i+2) + ' -30,"dd/mm/yyyy"))')
+    dateSQWith.append('="Date: " & (TEXT(AP' + str(i+2) + ' -31,"dd/mm/yyyy"))')
+    datePIWith.append('="Date: " & (TEXT(AP' + str(i+2) + ' -25,"dd/mm/yyyy"))')
+    dateCIorPLWith.append('="Date: " & (TEXT(AP' + str(i+2) + ' +10,"dd/mm/yyyy"))')
+    
 
 
-# In[30]:
+# In[ ]:
+
+
+currwith = []
+for curr in track['currency']:
+    currwith.append('currency : ' + curr)
+
+
+# In[27]:
 
 
 forPO = []
 forPO = pd.DataFrame()
 forPO['REF'] = track['refrence']
 
-forPO['repExporter'], forPO['cityOfRepExporter'] = repExporter, (cityOfRepExporter)
+forPO['repExporter'], forPO['cityOfRepExporter'] = repExporter, list(cityOfRepExporter)
 forPO['exporter'], forPO['cityOfExporter']  = exporter, cityOfExporter
 
 forPO['importer'], forPO['cityOfImporter'] = importer, cityOfImporter
-forPO['repImporter'], forPO['cityOfrepImporter'] = repImporter, list(cityOfrepImporter)
+forPO['repImporter'], forPO['cityOfrepImporter'] = repImporter, list(cityOfRepImporter)
 
 forPO['Origin'], forPO['laoding'], forPO['Discharge'] = origin, load, dischareg
 
@@ -707,6 +734,16 @@ forPO['date of PO'] = datePO
 forPO['date of SQ'] = dateSQ
 forPO['date of PI'] = datePI
 forPO['date of CIorPL'] = dateCIorPL
+
+forPO['countryOfManufacture'] = countryOfManufactureWith
+forPO['countryOfDestinationWith'] = countryOfDestinationWith
+
+forPO['datePOWith'] = datePOWith
+forPO['dateSQWith'] = dateSQWith
+forPO['datePIWith'] = datePIWith
+forPO['dateCIorPLWith'] = dateCIorPLWith
+
+forPO['withcurrency'] = currwith
 
 forPO.to_csv('Tracking Sheet output.csv', index = False)
 
