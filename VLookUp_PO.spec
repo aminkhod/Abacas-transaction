@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['VLookUp_PO.py'],
-             pathex=['D:\\Amin\\Abacas-transaaction'],
+             pathex=['E:\\work\\Abacus\\Transaction\\Abacas-transaaction'],
              binaries=[],
              datas=[],
              hiddenimports=[],
