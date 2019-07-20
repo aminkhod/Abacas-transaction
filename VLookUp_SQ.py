@@ -633,7 +633,7 @@ for city in cityOfImporter:
 
 amountInWordsWithString = []
 for  amToW in amountToWord:
-    amountInWordsWithString.append('Amount in words : ' + amToW )
+    amountInWordsWithString.append('Amount in Words : ' + amToW )
 
 
 # In[25]:
@@ -663,7 +663,7 @@ for i in range(len(track['date'])):
     
 
 
-# In[26]:
+# In[30]:
 
 
 currwith = []
@@ -671,7 +671,7 @@ for curr in track['currency']:
     currwith.append('currency : ' + curr)
 
 
-# In[27]:
+# In[31]:
 
 
 forPO = []
@@ -682,7 +682,7 @@ forPO['repExporter'], forPO['cityOfRepExporter'] = repExporter, list(cityOfRepEx
 forPO['exporter'], forPO['cityOfExporter']  = exporter, cityOfExporter
 
 forPO['importer'], forPO['cityOfImporter'] = importer, cityOfImporter
-forPO['repImporter'], forPO['cityOfrepImporter'] = repImporter, list(cityOfRepImporter)
+forPO['repImporter'], forPO['cityOfRepImporter'] = repImporter, list(cityOfRepImporter)
 
 forPO['Origin'], forPO['laoding'], forPO['Discharge'] = origin, load, dischareg
 
@@ -745,7 +745,7 @@ forPO['dateCIorPLWith'] = dateCIorPLWith
 
 forPO['withcurrency'] = currwith
 
-forPO.to_csv('Tracking Sheet output.csv', index = False)
+forPO.to_csv('Tracking Sheet Output.csv', index = False)
 
 
 # In[ ]:
